@@ -32,6 +32,7 @@ namespace TpCarrito
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvProductos;
 
+
         /// <summary>
         /// Control gvCarrito.
         /// </summary>
