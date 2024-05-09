@@ -16,7 +16,9 @@
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
+
         </asp:GridView>
+
         <br />
         <asp:GridView ID="gvCarrito" runat="server" AutoGenerateColumns="false">
             <Columns>

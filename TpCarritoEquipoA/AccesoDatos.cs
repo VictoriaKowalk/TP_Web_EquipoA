@@ -20,8 +20,9 @@ namespace TpCarritoEquipoA
 
         public AccesoDatos()
         {
-            string conexionLV = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB; integrated security=true";
-            conexion = new SqlConnection(conexionLV);
+            string conexionLV = "server=(LocalDb)\\MSSQLLocalDB; database=CATALOGO_P3_DB1; integrated security=true";
+            string conexionS = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
+            conexion = new SqlConnection(conexionS);
             comando = new SqlCommand();
         }
         public void setConsulta(string consulta)
