@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>hola </h1>
     <div>
         <h1>Carrito de Compras</h1>
         <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
@@ -13,9 +12,9 @@
                 <asp:TemplateField HeaderText="Cantidad">
                     <ItemTemplate>
                         <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
+                        <asp:Button ID="Botoncito" Text="Agregar al Carrito" OnClick="Botoncito_Click" runat="server"/>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:ButtonField ButtonType="Button" CommandName="Agregar" Text="Agregar al Carrito" />
             </Columns>
         </asp:GridView>
         <br />

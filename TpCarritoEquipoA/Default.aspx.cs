@@ -59,11 +59,16 @@ namespace TpCarritoEquipoA
         private DataTable GetProductos()
         {
             // Aquí deberías obtener los productos desde tu fuente de datos (base de datos, servicio web, etc.)
+            ArticulosNegocio articulos = new ArticulosNegocio();
+            List<Articulo> misArticulos = new List<Articulo>();
+            misArticulos = articulos.listar();
             DataTable dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[2] { new DataColumn("Producto"), new DataColumn("Precio") });
-            dt.Rows.Add("Producto 1", "10");
-            dt.Rows.Add("Producto 2", "20");
-            dt.Rows.Add("Producto 3", "30");
+            for(int i=0; i < misArticulos.Count; i++)
+            {
+                dt.Rows.Add(misArticulos[i].Nombre, misArticulos[i].Precio);
+            }
+
             return dt;
         }
 
@@ -76,6 +81,14 @@ namespace TpCarritoEquipoA
                 total += Convert.ToDecimal(row["Total"]);
             }
             lblTotal.Text = "Total: " + total.ToString("C");
+        }
+
+        protected void Botoncito_Click(object sender, EventArgs e)
+        {
+            Articulo nuevoArticulo = new Articulo();
+            //nuevoArticulo.Nombre = ???;
+            //nuevoArticulo.Precio = ???;
+            carrito.AgregarProducto(nuevoArticulo);
         }
     }
     /*protected void GridViewProductos_RowCommand(object sender, GridViewCommandEventArgs e)

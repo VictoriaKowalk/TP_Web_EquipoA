@@ -1,0 +1,30 @@
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\bin\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\obj\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\Programacion3-main\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\bin\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\obj\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\Programacion3\Dominio\obj\Debug\Dominio.pdb
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\bin\Debug\Dominio.dll
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\obj\Debug\Dominio.dll
+C:\Users\kowal\Desktop\UTN\2024\Programacion\Actividad 2\Repositorio\Programacion3\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\bin\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\obj\Debug\Dominio.dll
+C:\Users\Mathi\Desktop\carpeta\Programacion3\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\bin\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\obj\Debug\Dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\tp-winform-equipo-A\Dominio\obj\Debug\Dominio.pdb
