@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\",
+  "WorkspaceRootPath": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\carrito de compras\\tpcarrito\\tpcarrito\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\tpcarrito\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|solutionrelative:tpcarrito\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\carrito de compras\\tpcarrito\\tpcarrito\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\tpcarrito\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|solutionrelative:tpcarrito\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\carrito de compras\\tpcarrito\\tpcarrito\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\tpcarrito\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|solutionrelative:tpcarrito\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|c:\\users\\kowal\\desktop\\utn\\2024\\programacion\\carrito de compras\\tpcarrito\\tpcarrito\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\tpcarrito\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0490C431-B8B8-404F-AB8A-9D6B9D71C28B}|TpCarrito\\TpCarrito.csproj|solutionrelative:tpcarrito\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TpCarrito\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Default.aspx.cs",
               "RelativeToolTip": "TpCarrito\\Default.aspx.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBQAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T23:10:44.802Z",
               "EditorCaption": ""
@@ -45,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Producto.cs",
               "RelativeDocumentMoniker": "TpCarrito\\Producto.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Producto.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Producto.cs",
               "RelativeToolTip": "TpCarrito\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Carrito.cs",
               "RelativeDocumentMoniker": "TpCarrito\\Carrito.cs",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Carrito.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Carrito.cs",
               "RelativeToolTip": "TpCarrito\\Carrito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T22:26:17.835Z",
               "EditorCaption": ""
@@ -71,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Default.aspx",
               "RelativeDocumentMoniker": "TpCarrito\\Default.aspx",
-              "ToolTip": "C:\\Users\\kowal\\Desktop\\UTN\\2024\\Programacion\\Carrito de Compras\\TpCarrito\\TpCarrito\\Default.aspx",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_web_carrito\\TP_Web_EquipoA\\TpCarrito\\Default.aspx",
               "RelativeToolTip": "TpCarrito\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
