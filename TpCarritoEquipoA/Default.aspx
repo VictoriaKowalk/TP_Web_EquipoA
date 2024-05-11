@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <h1>Carrito de Compras</h1>
+        <h1 class="display-3">NUESTROS PRODUCTOS</h1>
          
              <%-- <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
             <Columns>
@@ -41,15 +41,15 @@
                         }
                         else
                         {
-                            urlImagen = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"; 
-                            // Si no hay imagen, usa esta imagen
-                            ///NO ANDA!!!
+                            // Si no hay imagen, usa esta en su lugar.
+                            string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
+                            urlImagen = defaultUrl; 
                         }%>
-                    <img src="<%= urlImagen %>" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>">
+                    <img src="<%= urlImagen %>"  class="card-img-top" alt="Imagen del producto <%= item.Nombre %>">
                     <div class="card-body">
                         <h1 class="nombre-art"><%=item.Nombre %> </h1>
                         <h5 class="cod-art"><%=item.Codigo %></h5>
-                        <p class="precio-art"><%=item.Precio %></p>
+                        <p class="precio-art">ARS <%=Math.Round(item.Precio, 2) %></p>
                         <a href="#" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
         </div>
      
    </div>
-        <br />
+    <div>
         <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>
     </div>
 </asp:Content>
