@@ -4,7 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <h1 class="display-3">NUESTROS PRODUCTOS</h1>
+           <br />
+        <div class="container text-center">
+            <h1 class="display-3">NUESTROS PRODUCTOS</h1>
+        </div>
+           <br />
+        
          
              <%-- <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
             <Columns>
@@ -50,7 +55,7 @@
                         <h1 class="nombre-art"><%=item.Nombre %> </h1>
                         <h5 class="cod-art"><%=item.Codigo %></h5>
                         <p class="precio-art">ARS <%=Math.Round(item.Precio, 2) %></p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <a href="DetalleProducto.aspx" class="btn btn-primary">Ver más</a>  
                     </div>
                 </div>
             </div>
