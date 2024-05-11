@@ -12,6 +12,8 @@ namespace TpCarritoEquipoA
     public partial class Default : System.Web.UI.Page
     {
         private CarritoCompras carrito = new CarritoCompras();
+        public List<Articulo> misArticulos;
+        public string urlImagen = "";
 
 
 
@@ -60,8 +62,12 @@ namespace TpCarritoEquipoA
         {
             // Aquí deberías obtener los productos desde tu fuente de datos (base de datos, servicio web, etc.)
             ArticulosNegocio articulos = new ArticulosNegocio();
-            List<Articulo> misArticulos = new List<Articulo>();
+            ImagenesNegocio imagenes = new ImagenesNegocio();
+            List<Imagen> misImagenes = new List<Imagen>();
+            misImagenes = imagenes.listar();
+            misArticulos = new List<Articulo>();
             misArticulos = articulos.listar();
+            imagenes.vincularImagenes(misArticulos, misImagenes);
             DataTable dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[2] { new DataColumn("Producto"), new DataColumn("Precio") });
             for(int i=0; i < misArticulos.Count; i++)

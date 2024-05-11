@@ -5,7 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
         <h1>Carrito de Compras</h1>
-        <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
+        <%--   --%>
+            <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="Producto" HeaderText="Producto" />
                 <asp:BoundField DataField="Precio" HeaderText="Precio" />
@@ -28,6 +29,35 @@
                 <asp:BoundField DataField="Total" HeaderText="Total" />
             </Columns>
         </asp:GridView>
+        <div class="row row-cols 1 row-cols-md-3 g-4">
+            <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)
+                {%>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <% 
+                        if (item.Imagenes.Count() > 0) // Verifica si hay imágenes
+                        {
+                            urlImagen = item.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
+                        }
+                        else
+                        {
+                            urlImagen = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"; 
+                            // Si no hay imagen, usa esta imagen
+                            ///NO ANDA!!!
+                        }%>
+                    <img src="<%= urlImagen %>" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>">
+                    <div class="card-body">
+                        <h1 class="nombre-art"><%=item.Nombre %> </h1>
+                        <h5 class="cod-art"><%=item.Codigo %></h5>
+                        <p class="precio-art"><%=item.Precio %></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+        </div>
+     
+   </div>
         <br />
         <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>
     </div>
