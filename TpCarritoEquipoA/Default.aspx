@@ -5,8 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
         <h1>Carrito de Compras</h1>
-        <%--   --%>
-            <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
+         
+             <%-- <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="Producto" HeaderText="Producto" />
                 <asp:BoundField DataField="Precio" HeaderText="Precio" />
@@ -28,7 +28,7 @@
                 <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
                 <asp:BoundField DataField="Total" HeaderText="Total" />
             </Columns>
-        </asp:GridView>
+        </asp:GridView> --%>
         <div class="row row-cols 1 row-cols-md-3 g-4">
             <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)
                 {%>

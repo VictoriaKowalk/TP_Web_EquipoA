@@ -23,8 +23,8 @@ namespace TpCarritoEquipoA
             {
                 //CargarProductos(); //para cargar los productos en el GridView
                 DataTable dtProductos = GetProductos();
-                gvProductos.DataSource = dtProductos;
-                gvProductos.DataBind();
+                //gvProductos.DataSource = dtProductos;
+                //gvProductos.DataBind();
 
                 DataTable dtCarrito = new DataTable();
                 dtCarrito.Columns.AddRange(new DataColumn[4] { new DataColumn("Producto"), new DataColumn("Precio"), new DataColumn("Cantidad"), new DataColumn("Total") });
@@ -32,7 +32,7 @@ namespace TpCarritoEquipoA
             }
         }
 
-        protected void gvProductos_RowCommand(object sender, GridViewCommandEventArgs e)
+        /*protected void gvProductos_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             if (e.CommandName == "Agregar")
             {
@@ -44,7 +44,7 @@ namespace TpCarritoEquipoA
 
                 DataTable dtCarrito = (DataTable)ViewState["Carrito"];
                 DataRow dr = dtCarrito.NewRow();
-                dr["Producto"] = gvProductos.Rows[rowIndex].Cells[0].Text;
+                //dr["Producto"] = gvProductos.Rows[rowIndex].Cells[0].Text;
                 dr["Precio"] = gvProductos.Rows[rowIndex].Cells[1].Text;
                 dr["Cantidad"] = cantidad;
                 dr["Total"] = int.Parse(gvProductos.Rows[rowIndex].Cells[1].Text) * cantidad;
@@ -56,7 +56,7 @@ namespace TpCarritoEquipoA
 
                 CalcularTotal();
             }
-        }
+        }*/
 
         private DataTable GetProductos()
         {
