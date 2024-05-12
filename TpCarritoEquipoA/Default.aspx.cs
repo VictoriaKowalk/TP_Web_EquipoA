@@ -16,8 +16,6 @@ namespace TpCarritoEquipoA
         public string urlImagen = "";
         public Articulo articulo = new Articulo();
 
-
-
         protected void Page_Load(object sender, EventArgs e) //ejecuta cada vez que se carga la página
         {
             if (!IsPostBack) //Verifica si la página se carga por primera vez o si se carga por una acción del usuario
@@ -32,32 +30,6 @@ namespace TpCarritoEquipoA
                 ViewState["Carrito"] = dtCarrito;
             }
         }
-
-        /*protected void gvProductos_RowCommand(object sender, GridViewCommandEventArgs e)
-        {
-            if (e.CommandName == "Agregar")
-            {
-                GridViewRow row = (GridViewRow)(((Button)e.CommandSource).NamingContainer);
-                int rowIndex = row.RowIndex;
-
-                TextBox txtCantidad = (TextBox)gvProductos.Rows[rowIndex].FindControl("txtCantidad");
-                int cantidad = int.Parse(txtCantidad.Text);
-
-                DataTable dtCarrito = (DataTable)ViewState["Carrito"];
-                DataRow dr = dtCarrito.NewRow();
-                //dr["Producto"] = gvProductos.Rows[rowIndex].Cells[0].Text;
-                dr["Precio"] = gvProductos.Rows[rowIndex].Cells[1].Text;
-                dr["Cantidad"] = cantidad;
-                dr["Total"] = int.Parse(gvProductos.Rows[rowIndex].Cells[1].Text) * cantidad;
-                dtCarrito.Rows.Add(dr);
-
-                ViewState["Carrito"] = dtCarrito;
-                gvCarrito.DataSource = dtCarrito;
-                gvCarrito.DataBind();
-
-                CalcularTotal();
-            }
-        }*/
 
         private DataTable GetProductos()
         {
@@ -91,14 +63,6 @@ namespace TpCarritoEquipoA
             lblTotal.Text = "Total: " + total.ToString("C");
         }
 
-        protected void Botoncito_Click(object sender, EventArgs e)
-        {
-            Articulo nuevoArticulo = new Articulo();
-            //nuevoArticulo.Nombre = ???;
-            //nuevoArticulo.Precio = ???;
-            carrito.AgregarProducto(nuevoArticulo);
-        }
-
         protected void verDetalle_OnClick(object sender, EventArgs e)
         {
             Session.Add("codigo", articulo.Codigo);
@@ -106,20 +70,4 @@ namespace TpCarritoEquipoA
             Response.Redirect("DetalleProducto.apsx", false);
         }
     }
-
-
-    /*protected void GridViewProductos_RowCommand(object sender, GridViewCommandEventArgs e)
-    {
-        if (e.CommandName == "Eliminar")
-        {
-            int idProducto = Convert.ToInt32(e.CommandArgument); //Obtiene el argumento del comando, que es el ID del producto a eliminar, y lo convierte a un entero.
-            carrito.EliminarProducto(idProducto);
-            CargarProductos(); //recarga los productos en el GridView después de eliminar 
-        }
-    }
-
-    private void CargarProductos()
-    {
-
-    }*/
 }

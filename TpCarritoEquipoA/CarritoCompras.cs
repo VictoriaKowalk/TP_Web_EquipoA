@@ -1,23 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Web;
 
 namespace TpCarritoEquipoA
 {
     public class CarritoCompras
     {
-        //Esta lista almacena los productos que se agreguen al carrito.
-        ///Se inicializa como una nueva lista vacía.
         private List<Articulo> articulos = new List<Articulo>();
 
-        //Agrega el producto pasado como argumento a la lista de productos.
         public void AgregarProducto(Articulo articulo)
         {
             articulos.Add(articulo);
         }
 
-        //Eliminar un producto del carrito
+        // Devuelve la cantidad de veces que el artículo dado existe en el carrito
+        public int contarProducto(List <Articulo> articulos, int id)
+        {
+            int cantidad = 0;
+
+            foreach (Articulo item in articulos)
+            {
+                if(item.IDArticulo == id)
+                {
+                    cantidad++;
+                }
+            }
+            return cantidad;
+        }
+
+        public void ModificarCantidad(Articulo articulo, int cantidad)
+        {
+
+        }
+
         public void EliminarProducto(int id)
         {
             //FirstOrDefault es un método de LINQ (Language Integrated Query) en C#. 
@@ -31,7 +48,6 @@ namespace TpCarritoEquipoA
             }
         }
 
-        //Devuelve la lista de productos almacenada en el carrito
         public List<Articulo> ObtenerProductos()
         {
             return articulos;

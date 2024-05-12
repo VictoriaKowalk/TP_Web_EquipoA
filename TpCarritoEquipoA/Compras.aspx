@@ -7,6 +7,13 @@
     <br />
     <h2>Detalle de compra</h2>
     <br />
+    <asp:DataGrid ID="dgvCompras" AutoGenerateColumns="false" runat="server" CssClass="table table-bordered">
+        <Columns>
+            <asp:BoundColumn HeaderText="Nombre" DataField="Nombre"/>
+            <asp:BoundColumn HeaderText="Código" DataField="Codigo"/>
+            <asp:BoundColumn HeaderText="Precio" DataField="Precio"/>
+        </Columns>
+    </asp:DataGrid>
     <div class="container text-center">
         <div class="row" style="font-weight: bold;">
             <div class="col border" style="height: 50px;">NOMBRE</div>

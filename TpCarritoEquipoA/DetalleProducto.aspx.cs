@@ -9,22 +9,32 @@ namespace TpCarritoEquipoA
 {
     public partial class DetalleProducto : System.Web.UI.Page
     {
+        public Articulo artSeleccionado;
+        public string urlImagen = "";
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) // Si es la primera carga
-            {
-                List<Articulo> verDetalle;
-                verDetalle = Session["articulos"] != null ? (List<Articulo>)Session["articulos"] : new List<Articulo>();
-                Session.Add("verDetalle", verDetalle);
+            ddlCantidad.Items.Add("1");
+            ddlCantidad.Items.Add("2");
+            ddlCantidad.Items.Add("3");
+            ddlCantidad.Items.Add("4");
+            ddlCantidad.Items.Add("5");
+            ddlCantidad.Items.Add("6");
+            ddlCantidad.Items.Add("7");
+            ddlCantidad.Items.Add("8");
+            ddlCantidad.Items.Add("9");
+            ddlCantidad.Items.Add("10");
 
+            if (!IsPostBack) 
+            {
                 int id = int.Parse(Request.QueryString["id"]);
 
-                List<Articulo> listaOriginal = (List<Articulo>)Session["verDetalle"];
-                Articulo seleccionado = listaOriginal.Find(x => x.IDArticulo == id);
-                txtNombre.Text = string.Format("<h1>{0}</h1>", seleccionado.Nombre);
-                txtCodigo.Text = string.Format("<h5>{0}</h5>", seleccionado.Codigo);
-                txtPrecio.Text = string.Format("<p>{0}</p>", (Math.Round(seleccionado.Precio, 2)).ToString());
-                txtDescripcion.Text = string.Format("<p>{0}</p>", seleccionado.Descripcion);
+                artSeleccionado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
+
+                txtNombre.Text = string.Format("<h1>{0}</h1>", artSeleccionado.Nombre);
+                txtCodigo.Text = string.Format("<h5>Código: {0}</h5>", artSeleccionado.Codigo);
+                txtPrecio.Text = string.Format("<h3>ARS {0}</h3>", (Math.Round(artSeleccionado.Precio, 2)).ToString());
+                txtDescripcion.Text = string.Format("<p>{0}</p>", artSeleccionado.Descripcion);
 
             }
         }

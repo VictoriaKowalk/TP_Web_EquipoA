@@ -33,6 +33,15 @@ namespace TpCarritoEquipoA
         protected global::System.Web.UI.WebControls.Label txtCodigo;
 
         /// <summary>
+        /// txtPrecio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txtPrecio;
+
+        /// <summary>
         /// txtDescripcion control.
         /// </summary>
         /// <remarks>
@@ -42,12 +51,12 @@ namespace TpCarritoEquipoA
         protected global::System.Web.UI.WebControls.Label txtDescripcion;
 
         /// <summary>
-        /// txtPrecio control.
+        /// ddlCantidad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtPrecio;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCantidad;
     }
 }
