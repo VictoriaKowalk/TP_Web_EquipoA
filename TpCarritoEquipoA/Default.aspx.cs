@@ -14,6 +14,7 @@ namespace TpCarritoEquipoA
         private CarritoCompras carrito = new CarritoCompras();
         public List<Articulo> misArticulos;
         public string urlImagen = "";
+        public Articulo articulo = new Articulo();
 
 
 
@@ -68,9 +69,10 @@ namespace TpCarritoEquipoA
             misArticulos = new List<Articulo>();
             misArticulos = articulos.listar();
             imagenes.vincularImagenes(misArticulos, misImagenes);
+            Session.Add("articulos", misArticulos);
             DataTable dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[2] { new DataColumn("Producto"), new DataColumn("Precio") });
-            for(int i=0; i < misArticulos.Count; i++)
+            for (int i = 0; i < misArticulos.Count; i++)
             {
                 dt.Rows.Add(misArticulos[i].Nombre, misArticulos[i].Precio);
             }
@@ -96,7 +98,16 @@ namespace TpCarritoEquipoA
             //nuevoArticulo.Precio = ???;
             carrito.AgregarProducto(nuevoArticulo);
         }
+
+        protected void verDetalle_OnClick(object sender, EventArgs e)
+        {
+            Session.Add("codigo", articulo.Codigo);
+
+            Response.Redirect("DetalleProducto.apsx", false);
+        }
     }
+
+
     /*protected void GridViewProductos_RowCommand(object sender, GridViewCommandEventArgs e)
     {
         if (e.CommandName == "Eliminar")

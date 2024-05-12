@@ -11,32 +11,9 @@
         <br />
 
 
-        <%-- <asp:GridView ID="gvProductos" runat="server" AutoGenerateColumns="False">
-            <Columns>
-                <asp:BoundField DataField="Producto" HeaderText="Producto" />
-                <asp:BoundField DataField="Precio" HeaderText="Precio" />
-                <asp:TemplateField HeaderText="Cantidad">
-                    <ItemTemplate>
-                        <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
-                        <asp:Button ID="Botoncito" Text="Agregar al Carrito" OnClick="Botoncito_Click" runat="server"/>
-                    </ItemTemplate>
-                </asp:TemplateField>
-            </Columns>
-
-        </asp:GridView>
-
-        <br />
-        <asp:GridView ID="gvCarrito" runat="server" AutoGenerateColumns="false">
-            <Columns>
-                <asp:BoundField DataField="Producto" HeaderText="Producto" />
-                <asp:BoundField DataField="Precio" HeaderText="Precio" />
-                <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
-                <asp:BoundField DataField="Total" HeaderText="Total" />
-            </Columns>
-        </asp:GridView> --%>
         <div class="row row-cols 1 row-cols-md-3 g-4">
-            <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)
-                {%>
+            <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)  
+               {%>
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <% 
@@ -47,10 +24,15 @@
                         }%>
                     <img src="<%= urlImagen %>" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onError="this.src='<%= defaultUrl %>'">
                     <div class="card-body">
-                        <h1 class="nombre-art"><%=item.Nombre %> </h1>
-                        <h5 class="cod-art"><%=item.Codigo %></h5>
-                        <p class="precio-art">ARS <%=Math.Round(item.Precio, 2) %></p>
-                        <a href="DetalleProducto.aspx" class="btn btn-primary">Ver más</a>
+                        <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
+                          lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo); 
+                          lblPrecio.Text = string.Format("<h1>{0}</h1>",(Math.Round(item.Precio, 2).ToString()));%> 
+                        <asp:Label ID="lblNombre" runat="server" />
+                        <asp:Label ID="lblCodigo" runat="server" />
+                        <asp:Label ID="lblPrecio" runat="server" />
+
+                        <a href="DetalleProducto.aspx?id=<%=item.IDArticulo%>" class="btn btn-primary">Ver más</a>
+
                     </div>
                 </div>
             </div>

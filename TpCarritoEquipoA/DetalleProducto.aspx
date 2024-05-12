@@ -15,10 +15,21 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h1 class="card-title">NOMBRE DEL PRODUCTO SELECCIONADO</h1>
-                                <h5 class="cod-art">CODIGO DEL ARTICULO SELECCIONADO</h5>
-                                <p class="card-text">PRECIO DEL PRODUCTO SELECCIONADO</p>
-                                <p class="card-text"><small class="text-muted">DESCRIPCION DEL PRODUCTO SELECCIONADO</small></p>
+
+                                <asp:Label ID="txtNombre"  runat="server" />
+                                <div>
+                                    <asp:Label ID="txtCodigo"  runat="server" />
+                                </div>
+
+                                <div>
+                                    <asp:Label ID="txtDescripcion"  runat="server" />
+                                </div>
+
+                                <div>
+                                    <asp:Label ID="txtPrecio"  runat="server" />
+                                </div>
+
+
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1">Cantidad</span>
@@ -26,7 +37,7 @@
                                     <input type="text" class="form-control" placeholder="1" aria-label="Cantidad" aria-describedby="basic-addon1">
                                 </div>
                                 <div class="text-center">
-                                       <a href="Compras.aspx" class="btn btn-primary">Agregar al carrito</a>
+                                    <a href="Compras.aspx" class="btn btn-primary">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>

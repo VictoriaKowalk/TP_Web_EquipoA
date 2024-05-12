@@ -37,7 +37,5 @@ namespace TpCarritoEquipoA
             return articulos;
         }
 
-
-
     }
 }
