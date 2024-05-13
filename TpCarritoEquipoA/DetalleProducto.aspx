@@ -5,10 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
 
-    <div class="container">
-        <div class="row justify-content-center">
+<div class="container">
+    <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="card mb-3">
+                <div class="mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <% 
@@ -17,7 +17,7 @@
                                 {
                                     urlImagen = artSeleccionado.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
                                 }%>
-                            <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl %>'" style="height: 100%">
+                            <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl %>'" style="height: auto; width: 100%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -48,7 +48,7 @@
                                     </div>
                                     <%--<input type="text" class="form-control" placeholder="1" aria-label="Cantidad" aria-describedby="basic-addon1">--%>
                                 </div>
-                                <div class="text-center">
+                                <div class="justify-content-center">
                                     <a href="compras.aspx?id=<%=artSeleccionado.IDArticulo%>" class="btn btn-primary">Agregar al carrito</a>
                                 </div>
                             </div>
