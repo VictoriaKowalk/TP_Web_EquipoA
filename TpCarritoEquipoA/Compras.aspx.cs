@@ -19,14 +19,19 @@ namespace TpCarritoEquipoA
             {
                 miCarrito = new CarritoCompras();
                 Session.Add("compras", miCarrito);
-            } else
+            }
+            else
             {
                 miCarrito = (CarritoCompras)Session["compras"];
             }
 
-            int id = int.Parse(Request.QueryString["id"]);
-            artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
-            miCarrito.AgregarProducto(artAgregado);
+            if (Request.QueryString["id"] != null)
+            {
+                int id = int.Parse(Request.QueryString["id"]);
+                artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
+                miCarrito.AgregarProducto(artAgregado);
+
+            }
 
             dgvCompras.DataSource = miCarrito.ObtenerProductos();
             dgvCompras.DataBind();

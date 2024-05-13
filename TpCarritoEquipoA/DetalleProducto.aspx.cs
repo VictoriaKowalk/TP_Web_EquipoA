@@ -7,10 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace TpCarritoEquipoA
 {
+
     public partial class DetalleProducto : System.Web.UI.Page
     {
         public Articulo artSeleccionado;
         public string urlImagen = "";
+
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -35,6 +37,8 @@ namespace TpCarritoEquipoA
                 txtCodigo.Text = string.Format("<h5>Código: {0}</h5>", artSeleccionado.Codigo);
                 txtPrecio.Text = string.Format("<h3>ARS {0}</h3>", (Math.Round(artSeleccionado.Precio, 2)).ToString());
                 txtDescripcion.Text = string.Format("<p>{0}</p>", artSeleccionado.Descripcion);
+                txtMarca.Text = string.Format("<h6>Marca: {0}</h6>", artSeleccionado.Marca);
+                txtCategoria.Text = string.Format("<h6>Categoria: {0}</h6>", artSeleccionado.Categoria);
 
             }
         }
