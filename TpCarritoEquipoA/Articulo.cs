@@ -29,6 +29,9 @@ namespace TpCarritoEquipoA
         [DisplayName("Nombre")]
         public string Nombre { get; set; }
 
+        [DisplayName("Cantidad")]
+        public int Cantidad { get; set; }
+
         [DisplayName("Precio")]
         public decimal Precio { get; set; }
 

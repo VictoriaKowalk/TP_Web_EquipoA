@@ -13,7 +13,6 @@ namespace TpCarritoEquipoA
         public Articulo artSeleccionado;
         public string urlImagen = "";
 
-
         protected void Page_Load(object sender, EventArgs e)
         {
             ddlCantidad.Items.Add("1");
@@ -42,5 +41,19 @@ namespace TpCarritoEquipoA
 
             }
         }
+
+        protected void ddlCantidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ddlCantidad.SelectedItem.Text.ToString();
+        }
+
+        protected void btnAgregarAlCarrito_Click(object sender, EventArgs e)
+        {
+            string id = Request.QueryString["id"];
+            string cant = ddlCantidad.SelectedValue;
+
+            Response.Redirect($"compras.aspx?id={id}&cant={cant}");
+        }
+
     }
 }

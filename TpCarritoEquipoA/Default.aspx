@@ -30,7 +30,6 @@
                         <asp:Label ID="lblNombre" runat="server" />
                         <asp:Label ID="lblCodigo" runat="server" />
                         <asp:Label ID="lblPrecio" runat="server" />
-
                         <a href="DetalleProducto.aspx?id=<%=item.IDArticulo%>" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>

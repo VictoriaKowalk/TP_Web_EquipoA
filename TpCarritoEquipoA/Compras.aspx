@@ -7,21 +7,19 @@
     <br />
     <h2>Detalle de compra</h2>
     <br />
-    <asp:DataGrid ID="dgvCompras" AutoGenerateColumns="false" runat="server" CssClass="table table-bordered">
-        <Columns>
-            <asp:BoundColumn HeaderText="Nombre" DataField="Nombre"/>
-            <asp:BoundColumn HeaderText="Código" DataField="Codigo"/>
-            <asp:BoundColumn HeaderText="Precio" DataField="Precio"/>
-        </Columns>
-    </asp:DataGrid>
+
     <div class="container text-center">
+        <%miCarrito = (TpCarritoEquipoA.CarritoCompras)Session["compras"];
+            int cantProductos = miCarrito.ObtenerProductos().Count();
+          foreach(TpCarritoEquipoA.Articulo articulo in miCarrito.ObtenerProductos()){%>
         <div class="row" style="font-weight: bold;">
-            <div class="col border" style="height: 50px;">NOMBRE</div>
-            <div class="col border" style="height: 50px;">CODIGO</div>
-            <div class="col border" style="height: 50px;">PRECIO</div>
-            <div class="col border" style="height: 50px;">CANTIDAD</div>
-            <div class="col border" style="height: 50px;">TOTAL</div>
+            <div class="col border" style="height: 50px;"><%=articulo.Nombre%></div>
+            <div class="col border" style="height: 50px;"><%=articulo.Codigo%></div>
+            <div class="col border" style="height: 50px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
+            <div class="col border" style="height: 50px;"><%=articulo.Cantidad%></div>
+            <div class="col border" style="height: 50px;vertical-align: middle">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
         </div>
+        <%}%>
     </div>
 
     <!-- Acá podemos hacer un for que agregue filas a medida de que se van cargando los productos en el carrito -->

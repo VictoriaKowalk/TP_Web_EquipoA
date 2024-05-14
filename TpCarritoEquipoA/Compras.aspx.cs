@@ -27,15 +27,24 @@ namespace TpCarritoEquipoA
 
             if (Request.QueryString["id"] != null)
             {
+                bool estaAgregado = false;
                 int id = int.Parse(Request.QueryString["id"]);
+                int cant = int.Parse(Request.QueryString["cant"]);
                 artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
-                miCarrito.AgregarProducto(artAgregado);
-
+                artAgregado.Cantidad = cant;
+                foreach(Articulo articulo in miCarrito.ObtenerProductos())
+                {
+                    if (articulo.IDArticulo == artAgregado.IDArticulo){
+                        articulo.Cantidad += artAgregado.Cantidad;
+                        estaAgregado = true;
+                    }
+                }
+                if (!estaAgregado)
+                {
+                    miCarrito.AgregarProducto(artAgregado);
+                    estaAgregado = true;
+                }
             }
-
-            dgvCompras.DataSource = miCarrito.ObtenerProductos();
-            dgvCompras.DataBind();
         }
-
     }
 }

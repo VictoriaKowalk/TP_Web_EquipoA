@@ -73,7 +73,7 @@
                                 <div>
                                     <label for="txtPrecio" class="form-label">Precio: </label>
                                     <asp:Label ID="txtPrecio" runat="server" />
-                                    <p for="txtPrecio" class="form-label;" style="font-weight: bold; color: darkgreen">Mismo precio en 6 cuotas de <%=Math.Round(artSeleccionado.Precio / 6,2) %></p>
+                                    <p for="txtPrecio" class="form-label;" style="font-weight: bold; color: darkgreen">Mismo precio en 6 cuotas de ARS <%=Math.Round(artSeleccionado.Precio / 6,2) %></p>
                                 </div>
 
                                 <asp:Label ID="txtMarca" runat="server" />
@@ -86,17 +86,13 @@
 
 
                                 <div class="input-group mb-3">
-                                    <%--    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon1">Cantidad</span>
-                                    </div>--%>
                                     <div style="mb-3">
                                         <label for="lblCantidad" class="form-label">Cantidad: </label>
-                                        <asp:DropDownList ID="ddlCantidad" CssClass="form-select" runat="server" />
+                                        <asp:DropDownList ID="ddlCantidad" CssClass="form-select" OnSelectedIndexChanged="ddlCantidad_SelectedIndexChanged" runat="server" />
                                     </div>
-                                    <%--<input type="text" class="form-control" placeholder="1" aria-label="Cantidad" aria-describedby="basic-addon1">--%>
                                 </div>
                                 <div class="justify-content-center">
-                                    <a href="compras.aspx?id=<%=artSeleccionado.IDArticulo%>" class="btn btn-primary">Agregar al carrito</a>
+                                    <asp:Button ID="btnAgregarAlCarrito" runat="server" Text="Agregar al carrito" CssClass="btn btn-primary" OnClick="btnAgregarAlCarrito_Click" />
                                 </div>
                             </div>
                         </div>
