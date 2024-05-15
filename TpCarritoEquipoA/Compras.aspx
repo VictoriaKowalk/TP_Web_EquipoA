@@ -31,7 +31,8 @@
                     urlImagen = articulo.Imagenes[0].ImagenUrl; // Asignar la primera imagen
                 }%>
             <div class="col border" style="height: 100px;">
-                <img src="<%= urlImagen %>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='<%= defaultUrl %>'"></div>
+                <img src="<%= urlImagen %>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+            </div>
             <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Nombre%></div>
             <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>
             <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
@@ -44,7 +45,7 @@
     <br />
 
     <div class="col text-end">
-        <asp:Label ID="Costo_Total" runat="server" CssClass="form-label"  Font-Bold="true" Font-Size="Large">Costo Total: ARS <%=Math.Round(costoTotal , 2) %> </asp:Label>
+        <asp:Label ID="Costo_Total" runat="server" CssClass="form-label" Font-Bold="true" Font-Size="Large">Costo Total: ARS <%=Math.Round(costoTotal , 2) %> </asp:Label>
     </div>
 
     <div class="container">
@@ -60,6 +61,5 @@
             </div>
         </div>
     </div>
-
 
 </asp:Content>

@@ -12,94 +12,84 @@
                     <div class="row g-0">
                         <div class="col-md-4">
 
+
+
                             <%-- CARRUSEL --%>
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <%  string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                                            if (artSeleccionado.Imagenes.Count() > 0) // Verifica si hay imágenes
+                                    <%if (artSeleccionado.Imagenes.Count == 0)
+                                      {
+                                            string urlImagen = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"; %>
+                                             <div class="carousel-item active">                             
+                                                 <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                             </div><%
+                                      }
+                                        else
+                                        {
+                                            foreach (TpCarritoEquipoA.Imagen img in artSeleccionado.Imagenes)
                                             {
-                                                urlImagen = artSeleccionado.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
-                                            }%>
-                                        <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl %>'" style="height: auto; width: 100%;">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <%  string defaultUrl1 = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                                            if (artSeleccionado.Imagenes.Count() > 0) // Verifica si hay imágenes
-                                            {
-                                                urlImagen = artSeleccionado.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
-                                            }%>
-                                        <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl1 %>'" style="height: auto; width: 100%;">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <%  string defaultUrl2 = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                                            if (artSeleccionado.Imagenes.Count() > 0) // Verifica si hay imágenes
-                                            {
-                                                urlImagen = artSeleccionado.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
-                                            }%>
-                                        <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl2 %>'" style="height: auto; width: 100%;">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+                                                 urlImagen = img.ImagenUrl;
+                                              %>
+                                             <div class="carousel-item active">
+                                                
+                                                 <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                             </div>
+                                <% }
+                                    }%>
                             </div>
-                            <%-- CARRUSEL --%>
-
-                            <%--       <%  string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                                if (artSeleccionado.Imagenes.Count() > 0) // Verifica si hay imágenes
-                                {
-                                    urlImagen = artSeleccionado.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
-                                }%>
-                            <img src="<%= urlImagen %>" id="artImagen" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" onerror="this.src='<%= defaultUrl %>'" style="height: auto; width: 100%;">
-                            --%>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
+                        <%-- END CARRUSEL --%>
+                      
+                    </div>
 
-                        <div class="col-md-8">
-                            <div class="card-body">
+                    <div class="col-md-8">
+                        <div class="card-body">
 
-                                <asp:Label ID="txtNombre" runat="server" />
+                            <asp:Label ID="txtNombre" runat="server" />
 
 
-                                <div>
-                                    <asp:Label ID="txtCodigo" runat="server" />
+                            <div>
+                                <asp:Label ID="txtCodigo" runat="server" />
+                            </div>
+
+                            <div>
+                                <label for="txtPrecio" class="form-label">Precio: </label>
+                                <asp:Label ID="txtPrecio" runat="server" />
+                                <p for="txtPrecio" class="form-label;" style="font-weight: bold; color: darkgreen">Mismo precio en 6 cuotas de ARS <%=Math.Round(artSeleccionado.Precio / 6,2) %></p>
+                            </div>
+
+                            <asp:Label ID="txtMarca" runat="server" />
+
+                            <asp:Label ID="txtCategoria" runat="server" />
+
+                            <div>
+                                <asp:Label ID="txtDescripcion" runat="server" />
+                            </div>
+
+
+                            <div class="input-group mb-3">
+                                <div style="mb-3">
+                                    <label for="lblCantidad" class="form-label">Cantidad: </label>
+                                    <asp:DropDownList ID="ddlCantidad" CssClass="form-select" OnSelectedIndexChanged="ddlCantidad_SelectedIndexChanged" runat="server" />
                                 </div>
-
-                                <div>
-                                    <label for="txtPrecio" class="form-label">Precio: </label>
-                                    <asp:Label ID="txtPrecio" runat="server" />
-                                    <p for="txtPrecio" class="form-label;" style="font-weight: bold; color: darkgreen">Mismo precio en 6 cuotas de ARS <%=Math.Round(artSeleccionado.Precio / 6,2) %></p>
-                                </div>
-
-                                <asp:Label ID="txtMarca" runat="server" />
-
-                                <asp:Label ID="txtCategoria" runat="server" />
-
-                                <div>
-                                    <asp:Label ID="txtDescripcion" runat="server" />
-                                </div>
-
-
-                                <div class="input-group mb-3">
-                                    <div style="mb-3">
-                                        <label for="lblCantidad" class="form-label">Cantidad: </label>
-                                        <asp:DropDownList ID="ddlCantidad" CssClass="form-select" OnSelectedIndexChanged="ddlCantidad_SelectedIndexChanged" runat="server" />
-                                    </div>
-                                </div>
-                                <div class="justify-content-center">
-                                    <asp:Button ID="btnAgregarAlCarrito" runat="server" Text="Agregar al carrito" CssClass="btn btn-primary" OnClick="btnAgregarAlCarrito_Click" />
-                                </div>
+                            </div>
+                            <div class="justify-content-center">
+                                <asp:Button ID="btnAgregarAlCarrito" runat="server" Text="Agregar al carrito" CssClass="btn btn-primary" OnClick="btnAgregarAlCarrito_Click" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <br />
