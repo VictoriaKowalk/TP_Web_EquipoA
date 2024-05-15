@@ -10,7 +10,6 @@
         </div>
         <br />
 
-
         <div class="row row-cols 1 row-cols-md-3 g-4">
             <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)  
                {%>
@@ -38,6 +37,8 @@
         </div>
 
     </div>
+
+
     <div>
         <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>
     </div>

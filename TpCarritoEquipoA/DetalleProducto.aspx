@@ -107,7 +107,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <a href="Default.aspx" class="btn btn-primary float-end">Volver</a>
+                <a href="Default.aspx" class="btn btn-primary float-end">Seguir comprando</a>
             </div>
         </div>
     </div>
