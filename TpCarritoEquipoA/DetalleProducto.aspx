@@ -20,15 +20,20 @@
                                             <div class="carousel-item active">                             
                                                 <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
                                             </div><%
-                                      } else {
-                                            // Falta ver cómo hacer que la primer imagen sea activa y el resto no
+                                      } else { 
+                                            
+                                            bool esActive = true;
                                             foreach (TpCarritoEquipoA.Imagen img in artSeleccionado.Imagenes){
-                                                urlImagen = img.ImagenUrl;%>
-                                                <div class="carousel-item active">
+                                                urlImagen = img.ImagenUrl;
+                                            %>
+                                                <div class="carousel-item <%= esActive ? "active" : "" %>">
                                                     <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
-                                                </div><%
+                                                </div>
+                                            <%
+                                                esActive = false; // setea el esActive a falso despues de la primer iteracion
                                             }
-                                      }%>
+                                            %>
+                                    <%  }%>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
