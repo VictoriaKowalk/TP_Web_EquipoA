@@ -54,7 +54,7 @@
     <footer style="background-color: lightgrey">
         <hr />
         <div class="text-center">
-            <h5>Encontranos en nuestras redes!</h5>
+            <h5>¡Encontranos en nuestras redes!</h5>
             <div class="Redes_sociales">
                 <a href="#" target="_blank" class="btn btn-social-icon btn-instagram">
                     <i class="fab fa-instagram fa-lg"></i>
@@ -84,16 +84,5 @@
             </p>
         </div>
     </footer>
-
-    <%-- 
-
-   <footer style="background-color: lightgrey">
-        <hr />
-        <p style="font-weight: bold">Autores: Victoria Kowalk - Lucas Delfino - Simon Altgelt © 2024</p>
-        <p style="margin: 1px"><a href="lucas.delfino@alumnos.frgp.utn.edu.ar">lucas.delfino@alumnos.frgp.utn.edu.ar</a></p>
-        <p style="margin: 1px"><a href="simon.altgelt@alumnos.frgp.utn.edu.ar">simon.altgelt@alumnos.frgp.utn.edu.ar</a></p>
-        <p style="margin: 1px"><a href="maria.kowalk@alumnos.frgp.utn.edu.ar">victoria.kowalk@alumnos.frgp.utn.edu.ar</a></p>
-    </footer>
-    --%>
 </body>
 </html>

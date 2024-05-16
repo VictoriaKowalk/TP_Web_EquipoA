@@ -52,17 +52,6 @@ namespace TpCarritoEquipoA
             return dt;
         }
 
-        private void CalcularTotal()
-        {
-            DataTable dt = (DataTable)ViewState["Carrito"];
-            decimal total = 0;
-            foreach (DataRow row in dt.Rows)
-            {
-                total += Convert.ToDecimal(row["Total"]);
-            }
-            lblTotal.Text = "Total: " + total.ToString("C");
-        }
-
         protected void verDetalle_OnClick(object sender, EventArgs e)
         {
             Session.Add("codigo", articulo.Codigo);

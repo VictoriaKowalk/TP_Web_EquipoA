@@ -35,9 +35,7 @@
             </div>
             <% } %>
         </div>
-
     </div>
-
 
     <div>
         <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>

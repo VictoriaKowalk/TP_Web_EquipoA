@@ -55,56 +55,6 @@ namespace TpCarritoEquipoA
             }
 
         }
-        public void agregar(Articulo nuevo)
-        {
-            AccesoDatos datos = new AccesoDatos();
-            try
-            {
-                // Insertar en ARTICULOS
-                string consulta = "INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, Precio, IdMarca, IdCategoria) VALUES (@Codigo, @Nombre, @Descripcion, @Precio, @IDMarca, @IDCategoria);";
-                datos.setConsulta(consulta);
-
-                // Establecer parámetros para el artículo
-                datos.setParametros("@Codigo", nuevo.Codigo);
-                datos.setParametros("@Nombre", nuevo.Nombre);
-                datos.setParametros("@Descripcion", nuevo.Descripcion);
-                datos.setParametros("@Precio", nuevo.Precio);
-                datos.setParametros("@IDMarca", nuevo.Marca.IDMarca);
-                datos.setParametros("@IDCategoria", nuevo.Categoria.IDCategoria);
-                datos.ejecutarAccion();
-
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                datos.cerrarConexion();
-            }
-        }
-        public void modificar(Articulo articulo)
-        {
-            AccesoDatos datos = new AccesoDatos();
-
-            try
-            {
-                datos.setConsulta("UPDATE articulos SET Codigo=@codigo,Nombre=@nombre,Descripcion=@Descripcion,IdMarca=@IdMarca,IdCategoria=@IdCategoria,Precio=@Precio WHERE Id=@id");
-              
-                datos.setParametros("@codigo", articulo.Codigo);
-                datos.setParametros("@nombre", articulo.Nombre);
-                datos.setParametros("@descripcion", articulo.Descripcion);
-                datos.setParametros("@idMarca", articulo.Marca.IDMarca);
-                datos.setParametros("@idCategoria", articulo.Categoria.IDCategoria);
-                datos.setParametros("@precio", articulo.Precio);
-                datos.setParametros("@Id", articulo.IDArticulo);
-                datos.ejecutarAccion();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
 
         public int obtenerIDArticulo()
         {
@@ -131,21 +81,6 @@ namespace TpCarritoEquipoA
             finally
             {
                 datos.cerrarConexion();
-            }
-        }
-
-        public void eliminar(int id)
-        {
-            try
-            {
-                AccesoDatos datos = new AccesoDatos();
-                datos.setConsulta("DELETE FROM Articulos WHERE ID=@id");
-                datos.setParametros("@id", id);
-                datos.ejecutarAccion();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
             }
         }
 

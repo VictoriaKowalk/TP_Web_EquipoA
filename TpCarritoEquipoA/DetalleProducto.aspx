@@ -11,50 +11,41 @@
                 <div class="mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-
-
-
                             <%-- CARRUSEL --%>
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    <%if (artSeleccionado.Imagenes.Count == 0)
-                                      {
+                                    <%// Si no tiene imágenes, asignamos una por defecto para mostrar
+                                      if (artSeleccionado.Imagenes.Count == 0){
                                             string urlImagen = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"; %>
-                                             <div class="carousel-item active">                             
-                                                 <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
-                                             </div><%
-                                      }
-                                        else
-                                        {
-                                            foreach (TpCarritoEquipoA.Imagen img in artSeleccionado.Imagenes)
-                                            {
-                                                 urlImagen = img.ImagenUrl;
-                                              %>
-                                             <div class="carousel-item active">
-                                                
-                                                 <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
-                                             </div>
-                                <% }
-                                    }%>
+                                            <div class="carousel-item active">                             
+                                                <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                            </div><%
+                                      } else {
+                                            // Falta ver cómo hacer que la primer imagen sea activa y el resto no
+                                            foreach (TpCarritoEquipoA.Imagen img in artSeleccionado.Imagenes){
+                                                urlImagen = img.ImagenUrl;%>
+                                                <div class="carousel-item active">
+                                                    <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                                </div><%
+                                            }
+                                      }%>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            <%-- END CARRUSEL --%>
                         </div>
-                        <%-- END CARRUSEL --%>
-                      
-                    </div>
 
                     <div class="col-md-8">
                         <div class="card-body">
 
                             <asp:Label ID="txtNombre" runat="server" />
-
 
                             <div>
                                 <asp:Label ID="txtCodigo" runat="server" />
@@ -74,9 +65,8 @@
                                 <asp:Label ID="txtDescripcion" runat="server" />
                             </div>
 
-
                             <div class="input-group mb-3">
-                                <div style="mb-3">
+                                <div class="mb-3">
                                     <label for="lblCantidad" class="form-label">Cantidad: </label>
                                     <asp:DropDownList ID="ddlCantidad" CssClass="form-select" OnSelectedIndexChanged="ddlCantidad_SelectedIndexChanged" runat="server" />
                                 </div>
