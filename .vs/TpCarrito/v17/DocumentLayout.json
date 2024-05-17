@@ -1,65 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\",
+  "WorkspaceRootPath": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|d:\\tp 4 prog iii\\tp_web_equipoa\\tpcarritoequipoa\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|c:\\users\\kowal\\desktop\\tp_carrito\\tp_web_equipoa\\tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\imagenesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\imagenesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|D:\\TP 4 Prog III\\TP_Web_EquipoA\\tpcarritoequipoa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\tpcarritoequipoa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,28 +62,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MarcasNegocio.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\MarcasNegocio.cs",
-              "RelativeDocumentMoniker": "TpCarritoEquipoA\\MarcasNegocio.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\MarcasNegocio.cs",
-              "RelativeToolTip": "TpCarritoEquipoA\\MarcasNegocio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:20:11.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Default.aspx",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
               "RelativeToolTip": "TpCarritoEquipoA\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -100,23 +79,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ImagenesNegocio.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\ImagenesNegocio.cs",
-              "RelativeDocumentMoniker": "TpCarritoEquipoA\\ImagenesNegocio.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\ImagenesNegocio.cs",
-              "RelativeToolTip": "TpCarritoEquipoA\\ImagenesNegocio.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:27:25.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MasterPage.Master",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\MasterPage.Master",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
               "RelativeToolTip": "TpCarritoEquipoA\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -127,22 +94,22 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\AccesoDatos.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\AccesoDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAyAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T14:00:38.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DetalleProducto.aspx.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DetalleProducto.aspx",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
               "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -164,11 +131,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Default.aspx.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Default.aspx.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\Default.aspx.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -176,24 +143,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\ArticulosNegocio.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\ArticulosNegocio.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T23:12:02.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T23:12:02.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "CategoriasNegocio.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\CategoriasNegocio.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\CategoriasNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Compras.aspx",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
               "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -213,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Compras.aspx.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAAwBAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Articulo.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\Articulo.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAEBdwCAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Compras.aspx.designer.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx.designer.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx.designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
               "RelativeDocumentMoniker": "TpCarritoEquipoA\\Global.asax.cs",
-              "ToolTip": "D:\\TP 4 Prog III\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\kowal\\Desktop\\Tp_Carrito\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
               "RelativeToolTip": "TpCarritoEquipoA\\Global.asax.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

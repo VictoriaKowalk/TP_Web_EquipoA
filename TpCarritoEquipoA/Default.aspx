@@ -3,6 +3,25 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="bg-dark text-white p -3 w-100" style="height: 80px; margin-">
+        <div class="container d-flex align-items-center justify-content-start">
+            <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" style="margin-right: 20px;" />
+            <asp:DropDownList ID="ddlFiltrarPor" runat="server" style="margin-right: 40px;">
+                <asp:ListItem Text="Precio" Value="Precio" />
+                <asp:ListItem Text="Codigo" Value="Categoria" />
+                <asp:ListItem Text="Marca" Value="Marca" />
+            </asp:DropDownList>
+
+            <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" style="margin-right: 20px;" />
+            <asp:DropDownList ID="ddlCriterio" runat="server">
+                <asp:ListItem Text="Ascendente" Value="Ascendente" />
+                <asp:ListItem Text="Descendente" Value="Descendente" />
+            </asp:DropDownList>
+        </div>
+    </div>
+
+
+
     <div>
         <br />
         <div class="container text-center">
@@ -11,8 +30,8 @@
         <br />
 
         <div class="row row-cols 1 row-cols-md-3 g-4">
-            <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)  
-               {%>
+            <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)
+                {%>
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <% 
@@ -21,11 +40,11 @@
                         {
                             urlImagen = item.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
                         }%>
-                    <img src="<%= urlImagen %>" style="width:auto" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onError="this.src='<%= defaultUrl %>'">
+                    <img src="<%= urlImagen %>" style="width: auto" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
                     <div class="card-body">
                         <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
-                          lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo); 
-                          lblPrecio.Text = string.Format("<p>ARS {0}</p>",(Math.Round(item.Precio, 2).ToString()));%> 
+                            lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo);
+                            lblPrecio.Text = string.Format("<p>ARS {0}</p>", (Math.Round(item.Precio, 2).ToString()));%>
                         <asp:Label ID="lblNombre" runat="server" />
                         <asp:Label ID="lblCodigo" runat="server" />
                         <asp:Label ID="lblPrecio" runat="server" />
