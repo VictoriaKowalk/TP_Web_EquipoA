@@ -54,7 +54,7 @@
                                     <a href="compras.aspx">
                                         <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
                                     </a>
-                                    <asp:Label ID="lblContador" runat="server" Text="0" CssClass="cart-counter"></asp:Label>
+                                    <asp:Label ID="lblContador" runat="server" CssClass="cart-counter"></asp:Label>
                                 </li>
                             </ul>
                         </div>

@@ -238,3 +238,7 @@ D:\TP 4 Prog III\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.pdb
 D:\TP 4 Prog III\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.pdb
 D:\TP 4 Prog III\TP_Web_EquipoA\TpCarritoEquipoA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\TP 4 Prog III\TP_Web_EquipoA\TpCarritoEquipoA\obj\Debug\TP_Web_E.F6951BDE.Up2Date
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.pdb

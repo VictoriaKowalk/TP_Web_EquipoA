@@ -7,3 +7,12 @@ D:\TP 4 Prog III\TP_Web_EquipoA\negocio\obj\Debug\negocio.csproj.CoreCompileInpu
 D:\TP 4 Prog III\TP_Web_EquipoA\negocio\obj\Debug\negocio.csproj.Up2Date
 D:\TP 4 Prog III\TP_Web_EquipoA\negocio\obj\Debug\negocio.dll
 D:\TP 4 Prog III\TP_Web_EquipoA\negocio\obj\Debug\negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\bin\Debug\negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\bin\Debug\negocio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\bin\Debug\dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\bin\Debug\dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\obj\Debug\negocio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\negocio\obj\Debug\negocio.pdb

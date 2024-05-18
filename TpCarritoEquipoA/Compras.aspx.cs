@@ -21,15 +21,7 @@ namespace TpCarritoEquipoA
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["compras"] == null)
-            {
-                miCarrito = new CarritoCompras();
-                Session.Add("compras", miCarrito);
-            }
-            else
-            {
-                miCarrito = (CarritoCompras)Session["compras"];
-            }
+            miCarrito = (CarritoCompras)Session["compras"];
 
             if (Request.QueryString["id"] != null)
             {
@@ -60,7 +52,6 @@ namespace TpCarritoEquipoA
 
         protected void btnEliminarProducto_Click(object sender, ImageClickEventArgs e)
         {
-            
         }
     }
 }

@@ -4,3 +4,9 @@ D:\TP 4 Prog III\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.AssemblyReferen
 D:\TP 4 Prog III\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 D:\TP 4 Prog III\TP_Web_EquipoA\dominio\obj\Debug\dominio.dll
 D:\TP 4 Prog III\TP_Web_EquipoA\dominio\obj\Debug\dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\bin\Debug\dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\bin\Debug\dominio.pdb
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.dll
+C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.pdb
