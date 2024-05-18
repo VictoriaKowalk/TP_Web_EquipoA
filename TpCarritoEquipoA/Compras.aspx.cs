@@ -58,5 +58,9 @@ namespace TpCarritoEquipoA
             }
         }
 
+        protected void btnEliminarProducto_Click(object sender, ImageClickEventArgs e)
+        {
+            
+        }
     }
 }

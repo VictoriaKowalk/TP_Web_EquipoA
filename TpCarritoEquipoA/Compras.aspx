@@ -41,7 +41,9 @@
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height:100px;"> <i class="fa-solid fa-trash-can fa-lg" style="color: #000000;"></i> </div>
+                <div class="col border d-flex justify-content-center align-items-center">
+                    <asp:ImageButton ID="btnEliminarProducto" runat="server" Height="99px" ImageUrl="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" CssClass="btn btn-link text-dark" OnClick="btnEliminarProducto_Click" />
+                </div>
             </div>
             <%}%>
         </div>
