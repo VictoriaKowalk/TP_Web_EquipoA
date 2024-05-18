@@ -23,7 +23,7 @@
                                       } else { 
                                             
                                             bool esActive = true;
-                                            foreach (TpCarritoEquipoA.Imagen img in artSeleccionado.Imagenes){
+                                            foreach (dominio.Imagen img in artSeleccionado.Imagenes){
                                                 urlImagen = img.ImagenUrl;
                                             %>
                                                 <div class="carousel-item <%= esActive ? "active" : "" %>">

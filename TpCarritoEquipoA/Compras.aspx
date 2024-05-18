@@ -21,9 +21,9 @@
 
             </div>
 
-            <%miCarrito = (TpCarritoEquipoA.CarritoCompras)Session["compras"];
+            <% miCarrito = (TpCarritoEquipoA.CarritoCompras)Session["compras"];
                 int cantProductos = miCarrito.ObtenerProductos().Count();
-                foreach (TpCarritoEquipoA.Articulo articulo in miCarrito.ObtenerProductos())
+                foreach (dominio.Articulo articulo in miCarrito.ObtenerProductos())
                 {%>
             <div class="row align-items-center" style="font-weight: bold;">
                 <% 

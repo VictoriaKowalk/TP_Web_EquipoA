@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Web_EquipoA", "TpCarritoEquipoA\TP_Web_EquipoA.csproj", "{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{30103251-225F-47B4-AA42-5D9A2EB69E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negocio", "negocio\negocio.csproj", "{224D12B1-366E-4E6D-9ECB-57F603DC7C60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30103251-225F-47B4-AA42-5D9A2EB69E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30103251-225F-47B4-AA42-5D9A2EB69E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30103251-225F-47B4-AA42-5D9A2EB69E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30103251-225F-47B4-AA42-5D9A2EB69E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224D12B1-366E-4E6D-9ECB-57F603DC7C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224D12B1-366E-4E6D-9ECB-57F603DC7C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224D12B1-366E-4E6D-9ECB-57F603DC7C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224D12B1-366E-4E6D-9ECB-57F603DC7C60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

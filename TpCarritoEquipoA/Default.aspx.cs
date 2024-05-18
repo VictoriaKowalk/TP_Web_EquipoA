@@ -6,6 +6,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TpCarritoEquipoA;
+using dominio;
+using negocio;
 
 namespace TpCarritoEquipoA
 {

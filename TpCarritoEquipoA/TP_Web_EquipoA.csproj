@@ -100,12 +100,7 @@
     <Content Include="Compras.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccesoDatos.cs" />
-    <Compile Include="Articulo.cs" />
-    <Compile Include="ArticulosNegocio.cs" />
     <Compile Include="CarritoCompras.cs" />
-    <Compile Include="Categoria.cs" />
-    <Compile Include="CategoriasNegocio.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,10 +118,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Imagen.cs" />
-    <Compile Include="ImagenesNegocio.cs" />
-    <Compile Include="Marca.cs" />
-    <Compile Include="MarcasNegocio.cs" />
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,6 +169,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominio\dominio.csproj">
+      <Project>{30103251-225f-47b4-aa42-5d9a2eb69e7d}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\negocio\negocio.csproj">
+      <Project>{224d12b1-366e-4e6d-9ecb-57f603dc7c60}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

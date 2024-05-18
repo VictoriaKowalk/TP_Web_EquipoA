@@ -21,9 +21,6 @@
         }
     </style>
 
-
-
-
     <div class="bg-dark text-white p -3 w-100 d-flex justify-content-center align-items-center" style="height: 70px;">
         <div class="d-flex align-items-center">
             <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" Style="margin-right: 20px;" />
@@ -54,7 +51,7 @@
             <br />
 
             <div class="row row-cols 1 row-cols-md-3 g-4">
-                <% foreach (TpCarritoEquipoA.Articulo item in (List<TpCarritoEquipoA.Articulo>)Session["articulos"])
+                <% foreach (dominio.Articulo item in (List<dominio.Articulo>)Session["articulos"])
                     {%>
                 <div class="col">
                     <div class="card">

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace TpCarritoEquipoA
+namespace dominio
 {
     public class Articulo
     {

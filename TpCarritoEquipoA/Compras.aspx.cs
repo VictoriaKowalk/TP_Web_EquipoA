@@ -5,6 +5,9 @@ using System.Security.Cryptography.X509Certificates;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using dominio;
+using negocio;
+
 
 namespace TpCarritoEquipoA
 {

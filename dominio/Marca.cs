@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TpCarritoEquipoA
+namespace dominio
 {
-    public class Categoria
+    public class Marca
     {
-        /// probando
-        public int IDCategoria { get; set; }
+        public int IDMarca { get; set; }
         public string Nombre { get; set; }
         public override string ToString()
         {
             return Nombre;
         }
-
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
 using System.Web;
+using dominio;
+using negocio;
 
 namespace TpCarritoEquipoA
 {
