@@ -4,21 +4,17 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-    <div class="bg-dark text-white p -3 w-100" style="height: 80px; background-color: blue">
+    <div class="bg-dark text-white p -3 w-100" style="height: 80px;">
         <div class="container d-flex align-items-center justify-content-start">
             <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" style="margin-right: 20px;" />
-            <asp:DropDownList ID="ddlFiltrarPor" runat="server" style="margin-right: 40px;">
-                <asp:ListItem Text="Precio" Value="Precio" />
-                <asp:ListItem Text="Codigo" Value="Categoria" />
-                <asp:ListItem Text="Marca" Value="Marca" />
+            <asp:DropDownList ID="ddlFiltrarPor" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlFiltrarPor_SelectedIndexChanged" CssClass="form-select" style="margin-right: 40px;">
             </asp:DropDownList>
 
             <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" style="margin-right: 20px;" />
-            <asp:DropDownList ID="ddlCriterio" runat="server">
-                <asp:ListItem Text="Ascendente" Value="Ascendente" />
-                <asp:ListItem Text="Descendente" Value="Descendente" />
+            <asp:DropDownList ID="ddlCriterio" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCriterio_SelectedIndexChanged" CssClass="form-select"  >
             </asp:DropDownList>
+
+            <asp:Button ID="btnAplicarFiltro" runat="server" Text="Aplicar filtro" CssClass="btn btn-primary" onClick="btnAplicarFiltro_Click"/>
         </div>
     </div>
 
@@ -31,7 +27,7 @@
             <br />
 
             <div class="row row-cols 1 row-cols-md-3 g-4">
-                <% foreach (TpCarritoEquipoA.Articulo item in misArticulos)
+                <% foreach (TpCarritoEquipoA.Articulo item in (List<TpCarritoEquipoA.Articulo>)Session["articulos"])
                     {%>
                 <div class="col">
                     <div class="card" style="width: 18rem;">

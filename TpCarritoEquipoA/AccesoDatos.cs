@@ -41,7 +41,6 @@ namespace TpCarritoEquipoA
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
 

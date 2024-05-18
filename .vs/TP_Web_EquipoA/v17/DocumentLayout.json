@@ -1,0 +1,386 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\categoriasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|c:\\users\\lucas\\desktop\\repo github\\tp_web_equipoa\\tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TP_Web_EquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\detalleproducto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\compras.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\compras.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\tpcarritoequipoa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}|TpCarritoEquipoA\\TpCarritoEquipoA.csproj|solutionrelative:tpcarritoequipoa\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Default.aspx",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx",
+              "RelativeToolTip": "TpCarritoEquipoA\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-09T18:04:58.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Default.aspx.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:07:24.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Compras.aspx",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-18T00:04:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "RelativeToolTip": "TpCarritoEquipoA\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-18T00:02:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\AccesoDatos.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:00:38.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetalleProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T00:18:24.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAG8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:58:39.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleProducto.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:13:33.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\AccesoDatos.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\AccesoDatos.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:16:32.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:34:13.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MarcasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MarcasNegocio.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\MarcasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MarcasNegocio.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\MarcasNegocio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:27:31.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriasNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\CategoriasNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:13:23.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-18T00:13:31.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleProducto.aspx",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\DetalleProducto.aspx",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\DetalleProducto.aspx",
+              "RelativeToolTip": "TpCarritoEquipoA\\DetalleProducto.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-11T19:47:01.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Default.aspx.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Default.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:50:34.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T23:12:02.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Compras.aspx",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx",
+              "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-12T21:36:49.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Compras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwBAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:34:21.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\MasterPage.Master",
+              "RelativeToolTip": "TpCarritoEquipoA\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-09T18:04:34.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Articulo.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Articulo.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAEBdwCAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:45:23.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Compras.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Compras.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T00:18:19.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
+              "RelativeDocumentMoniker": "TpCarritoEquipoA\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Desktop\\Repo GitHub\\TP_Web_EquipoA\\TpCarritoEquipoA\\Global.asax.cs",
+              "RelativeToolTip": "TpCarritoEquipoA\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:33:53.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

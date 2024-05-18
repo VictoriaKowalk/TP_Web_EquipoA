@@ -84,59 +84,33 @@ namespace TpCarritoEquipoA
             }
         }
 
-        public List<Articulo> filtrar(string campo, string criterio, string filtro)
+        public List<Articulo> listarFiltrados(string campo, string criterio)
         {
             List < Articulo > lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND ";
+                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria ";
                 if (campo == "Precio")
                 {
                     switch (criterio)
                     {
-                        case "Mayor a":
-                            consulta += "Precio > " + filtro;
+                        case "Ascendente":
+                            consulta += "ORDER BY Precio ASC";
                             break;
-                        case "Menor a":
-                            consulta += "Precio < " + filtro;
-                            break;
-                        default:
-                            consulta += "Precio = " + filtro;
+                        case "Descendente":
+                            consulta += "ORDER BY Precio DESC";
                             break;
                     }
                 }
-                else if (campo == "Código")
+                else if (campo == "Categoría")
                 {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "Codigo like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "Codigo like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "Codigo like '%" + filtro + "%'";
-                            break;
-                    }
+                    consulta += "AND C.Descripcion = '" + criterio + "' ";
                 }
-                else if (campo == "Nombre")
+                else if (campo == "Marca")
                 {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "Nombre like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "Nombre like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "Nombre like '%" + filtro + "%'";
-                            break;
-                    }
+                    consulta += "AND M.Descripcion = '" + criterio + "' ";
                 }
-                consulta += "ORDER BY Codigo";
 
                 datos.setConsulta(consulta);
                 datos.ejecutarLectura();

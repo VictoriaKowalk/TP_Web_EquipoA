@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D8F197D1-4102-4B1F-977D-A80B7A5397D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpCarritoEquipoA", "TpCarritoEquipoA\TpCarritoEquipoA.csproj", "{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Web_EquipoA", "TpCarritoEquipoA\TP_Web_EquipoA.csproj", "{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC358A2-43DE-4F1C-8BB2-7753B49DE7A9} = {D8F197D1-4102-4B1F-977D-A80B7A5397D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96AF27E2-1A62-48DF-9340-E7486267E267}
