@@ -17,6 +17,8 @@
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">PRECIO</div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">CANTIDAD</div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">TOTAL</div>
+                <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">ELIMINAR</div>
+
             </div>
 
             <%miCarrito = (TpCarritoEquipoA.CarritoCompras)Session["compras"];
@@ -39,6 +41,7 @@
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
+                <div class="col border d-flex justify-content-center align-items-center" style="height:100px;"> <i class="fa-solid fa-trash-can fa-lg" style="color: #000000;"></i> </div>
             </div>
             <%}%>
         </div>

@@ -54,5 +54,6 @@ namespace TpCarritoEquipoA
                 costoTotal += articulo.Cantidad * articulo.Precio; 
             }
         }
+
     }
 }
