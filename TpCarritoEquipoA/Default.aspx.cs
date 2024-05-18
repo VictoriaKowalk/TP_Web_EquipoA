@@ -117,5 +117,29 @@ namespace TpCarritoEquipoA
             imagenes.vincularImagenes(misArticulos, misImagenes);
             Session["articulos"] = misArticulos;
         }
+
+        protected void btnLimpiarFiltro_Click(object sender, EventArgs e)
+        {
+            ddlFiltrarPor.SelectedIndex = 0;
+            ddlCriterio.Items.Insert(0, new ListItem(string.Empty, string.Empty));
+            ddlCriterio.SelectedIndex = 0;
+
+            ArticulosNegocio articulos = new ArticulosNegocio();
+            ImagenesNegocio imagenes = new ImagenesNegocio();
+            List<Imagen> misImagenes = new List<Imagen>();
+            misImagenes = imagenes.listar();
+            misArticulos = new List<Articulo>();
+            misArticulos = articulos.listar();
+            imagenes.vincularImagenes(misArticulos, misImagenes);
+            if (Session["articulos"] == null)
+            {
+                Session.Add("articulos", misArticulos);
+            }
+            else
+            {
+                Session["articulos"] = misArticulos;
+            }
+            Session["articulos"] = misArticulos;
+        }
     }
 }

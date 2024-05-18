@@ -7,17 +7,17 @@
 
     <style>
         .tarjeta {
-            width: 100px;  
-            height: 400px; 
+            width: 100px;
+            height: 400px;
         }
 
         .card {
-            height: 100%; 
+            height: 100%;
         }
 
         .card-img-top {
-            height: 80%; 
-            object-fit:contain ; 
+            height: 80%;
+            object-fit: contain;
         }
     </style>
 
@@ -25,21 +25,23 @@
 
 
     <div class="bg-dark text-white p -3 w-100 d-flex justify-content-center align-items-center" style="height: 70px;">
- <div class="d-flex align-items-center">
-     <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" Style="margin-right: 20px; " />
+        <div class="d-flex align-items-center">
+            <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" Style="margin-right: 20px;" />
             <div class="ddlf" style="width: 160px; height: 20px; margin-right: 20px;">
                 <asp:DropDownList ID="ddlFiltrarPor" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlFiltrarPor_SelectedIndexChanged" CssClass="form-select" Style="margin-right: 40px;">
                 </asp:DropDownList>
             </div>
-                <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" Style="margin-right: 20px; margin-left:30px" />
+            <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" Style="margin-right: 20px; margin-left: 30px" />
             <div class="ddlf" style="width: 160px; height: 20px">
                 <asp:DropDownList ID="ddlCriterio" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCriterio_SelectedIndexChanged" CssClass="form-select">
                 </asp:DropDownList>
             </div>
-                        <div class="ddlf" style="width: 160px; height: 20px">
-
-            <asp:Button ID="btnAplicarFiltro" runat="server" Text="Aplicar filtro" CssClass="btn btn-primary" OnClick="btnAplicarFiltro_Click" Style="margin-left: 100px;" />
-        </div>
+            <div class="ddlf" style="width: 160px; height: 20px">
+                <asp:Button ID="btnAplicarFiltro" runat="server" Text="Aplicar filtro" CssClass="btn btn-primary" OnClick="btnAplicarFiltro_Click" Style="margin-left: 75px;" />
+            </div>
+            <div class="ddlf" style="width: 160px; height: 20px">
+                <asp:Button ID="btnLimpiarFiltro" runat="server" Text="Limpiar filtros" CssClass="btn btn-primary" OnClick="btnLimpiarFiltro_Click" Style="margin-left: 75px;" />
+             </div>
         </div>
     </div>
 
@@ -55,14 +57,14 @@
                 <% foreach (TpCarritoEquipoA.Articulo item in (List<TpCarritoEquipoA.Articulo>)Session["articulos"])
                     {%>
                 <div class="col">
-                    <div class="card" >
+                    <div class="card">
                         <% 
                             string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
                             if (item.Imagenes.Count() > 0) // Verifica si hay imágenes
                             {
                                 urlImagen = item.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
                             }%>
-                        <img src="<%= urlImagen %>"  style="width: auto; height: 80%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+                        <img src="<%= urlImagen %>" style="width: auto; height: 80%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
                         <div class="card-body">
                             <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
                                 lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo);
