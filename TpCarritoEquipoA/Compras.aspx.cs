@@ -35,6 +35,9 @@ namespace TpCarritoEquipoA
                     bool estaAgregado = false;
                     int id = int.Parse(Request.QueryString["id"]);
                     int cant = int.Parse((string)Session["cantidad"]);
+                    // si la cantidad es <1 pone 1 y lo mismo con 30
+                    if (cant < 1) cant = 1;
+                    if (cant > 30) cant = 30;
 
                     artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
                     artAgregado.Cantidad = cant;
@@ -43,6 +46,7 @@ namespace TpCarritoEquipoA
                         if (articulo.IDArticulo == artAgregado.IDArticulo)
                         {
                             articulo.Cantidad += artAgregado.Cantidad;
+                            if (articulo.Cantidad > 30) articulo.Cantidad = 30;// veo que la cantidad no supere 30
                             estaAgregado = true;
                         }
                     }
@@ -74,13 +78,26 @@ namespace TpCarritoEquipoA
             {
                 RepeaterItem item = miRepetidor.Items[i];
                 TextBox txtBox = (TextBox)item.FindControl("miTextBox");
-                if(int.Parse(txtBox.Text) < 1)
+                /*if(int.Parse(txtBox.Text) < 1)
                 {
                     txtBox.Text = "1";
                     return;
                 } else
                 {
                     miCarrito.ObtenerProductos()[i].Cantidad = int.Parse(txtBox.Text);
+                }*/
+                int cantidad;
+                if (!int.TryParse(txtBox.Text, out cantidad) || cantidad < 1)
+                {
+                    txtBox.Text = "1";
+                }
+                else if (cantidad > 30)
+                {
+                    txtBox.Text = "30";
+                }
+                else
+                {
+                    miCarrito.ObtenerProductos()[i].Cantidad = cantidad;
                 }
             }
 
@@ -92,6 +109,7 @@ namespace TpCarritoEquipoA
             {
                 costoTotal += articulo.Cantidad * Math.Round(articulo.Precio, 2);
             }
+           
         }
     }
 }

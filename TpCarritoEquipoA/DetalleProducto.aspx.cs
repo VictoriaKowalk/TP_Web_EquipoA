@@ -52,8 +52,14 @@ namespace TpCarritoEquipoA
         protected void btnAgregarAlCarrito_Click(object sender, EventArgs e)
         {
             string id = Request.QueryString["id"];
-            string cant = ddlCantidad.SelectedValue;
-            Session.Add("cantidad", cant);
+            //string cant = ddlCantidad.SelectedValue;
+            int cant = int.Parse(ddlCantidad.SelectedValue);
+
+            if (cant < 1) cant = 1;
+            if (cant > 30) cant = 30;
+            Session.Add("cantidad", cant.ToString());
+
+            //Session.Add("cantidad", cant);
 
             Response.Redirect($"compras.aspx?id={id}");
         }
