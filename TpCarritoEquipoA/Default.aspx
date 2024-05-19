@@ -38,7 +38,15 @@
             </div>
             <div class="ddlf" style="width: 160px; height: 20px">
                 <asp:Button ID="btnLimpiarFiltro" runat="server" Text="Limpiar filtros" CssClass="btn btn-primary" OnClick="btnLimpiarFiltro_Click" Style="margin-left: 75px;" />
-             </div>
+            </div>
+            <%--  --%>
+            <div class="input-group" style="margin-left: 80px">
+                <div class="form-outline">
+                    <asp:TextBox ID="tbxBuscar" CssClass="form-control input-group-lg" runat="server" />
+                </div>
+                <asp:Button Text="Buscar" ID="btnBuscar" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
+            </div>
+            <%--  --%>
         </div>
     </div>
 

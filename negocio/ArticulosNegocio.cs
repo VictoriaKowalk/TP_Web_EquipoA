@@ -87,7 +87,7 @@ namespace negocio
 
         public List<Articulo> listarFiltrados(string campo, string criterio)
         {
-            List < Articulo > lista = new List<Articulo>();
+            List <Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
             try
             {

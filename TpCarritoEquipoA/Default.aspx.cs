@@ -31,7 +31,8 @@ namespace TpCarritoEquipoA
 
                 ddlCriterio.Items.Insert(0, new ListItem(string.Empty, string.Empty));
                 ddlCriterio.SelectedIndex = 0;
-            } else
+            }
+            else
             {
                 misArticulos = (List<Articulo>)Session["articulos"];
             }
@@ -49,11 +50,12 @@ namespace TpCarritoEquipoA
             if (Session["articulos"] == null)
             {
                 Session.Add("articulos", misArticulos);
-            } else
+            }
+            else
             {
                 Session["articulos"] = misArticulos;
             }
-            
+
         }
 
         protected void verDetalle_OnClick(object sender, EventArgs e)
@@ -71,7 +73,7 @@ namespace TpCarritoEquipoA
         protected void ddlFiltrarPor_SelectedIndexChanged(object sender, EventArgs e)
         {
             Session.Add("campo", ddlFiltrarPor.SelectedItem.ToString());
- 
+
             if (ddlFiltrarPor.SelectedItem.ToString() == "Precio")
             {
                 ddlCriterio.Items.Clear();
@@ -79,19 +81,20 @@ namespace TpCarritoEquipoA
                 ddlCriterio.Items.Add("Descendente");
                 Session.Add("criterio", ddlCriterio.SelectedItem.ToString());
             }
-            else if(ddlFiltrarPor.SelectedItem.ToString() == "Marca")
+            else if (ddlFiltrarPor.SelectedItem.ToString() == "Marca")
             {
                 ddlCriterio.Items.Clear();
                 //llamar a base de datos, listar marcas
                 MarcasNegocio marcasNegocios = new MarcasNegocio();
                 List<Marca> misMarcas = marcasNegocios.listar();
-                foreach(Marca item in misMarcas)
+                foreach (Marca item in misMarcas)
                 {
                     ddlCriterio.Items.Add(item.Nombre);
                 }
                 Session.Add("criterio", ddlCriterio.SelectedItem.ToString());
 
-            } else if(ddlFiltrarPor.SelectedItem.ToString() == "Categoría")
+            }
+            else if (ddlFiltrarPor.SelectedItem.ToString() == "Categoría")
             {
                 ddlCriterio.Items.Clear();
                 // llamar a base de datos, listar categorías
@@ -145,6 +148,22 @@ namespace TpCarritoEquipoA
                 Session["articulos"] = misArticulos;
             }
             Session["articulos"] = misArticulos;
+        }
+
+        protected void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ArticulosNegocio articulos = new ArticulosNegocio();
+            string textoEnTextbox;
+            textoEnTextbox = tbxBuscar.Text;
+
+            if (textoEnTextbox.Length >= 2)
+            {
+                misArticulos = ((List<Articulo>)Session["articulos"]).FindAll(x => x.Nombre.ToUpper().Contains(textoEnTextbox.ToUpper()));
+            }
+            else
+            {
+                misArticulos = (List<Articulo>)Session["articulos"];
+            }
         }
     }
 }
