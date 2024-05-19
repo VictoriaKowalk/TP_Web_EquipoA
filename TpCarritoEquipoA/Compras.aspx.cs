@@ -35,9 +35,7 @@ namespace TpCarritoEquipoA
                     bool estaAgregado = false;
                     int id = int.Parse(Request.QueryString["id"]);
                     int cant = int.Parse((string)Session["cantidad"]);
-                    // si la cantidad es <1 pone 1 y lo mismo con 30
-                    if (cant < 1) cant = 1;
-                    if (cant > 30) cant = 30;
+                   
 
                     artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
                     artAgregado.Cantidad = cant;
@@ -74,31 +72,11 @@ namespace TpCarritoEquipoA
         protected void miTextBox_TextChanged(object sender, EventArgs e)
         {
             int longitud = miCarrito.ObtenerProductos().Count();
-            for (int i=0; i < longitud; i++)
+            for (int i = 0; i < longitud; i++)
             {
                 RepeaterItem item = miRepetidor.Items[i];
                 TextBox txtBox = (TextBox)item.FindControl("miTextBox");
-                /*if(int.Parse(txtBox.Text) < 1)
-                {
-                    txtBox.Text = "1";
-                    return;
-                } else
-                {
-                    miCarrito.ObtenerProductos()[i].Cantidad = int.Parse(txtBox.Text);
-                }*/
-                int cantidad;
-                if (!int.TryParse(txtBox.Text, out cantidad) || cantidad < 1)
-                {
-                    txtBox.Text = "1";
-                }
-                else if (cantidad > 30)
-                {
-                    txtBox.Text = "30";
-                }
-                else
-                {
-                    miCarrito.ObtenerProductos()[i].Cantidad = cantidad;
-                }
+                miCarrito.ObtenerProductos()[i].Cantidad = int.Parse(txtBox.Text);
             }
 
             Session["compras"] = miCarrito;
@@ -109,7 +87,7 @@ namespace TpCarritoEquipoA
             {
                 costoTotal += articulo.Cantidad * Math.Round(articulo.Precio, 2);
             }
-           
+
         }
     }
 }

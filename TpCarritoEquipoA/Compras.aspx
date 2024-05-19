@@ -29,7 +29,7 @@
                         <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%#Eval("Nombre")%></div>
                         <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%#Eval("Codigo")%></div>
                         <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%# Math.Round((decimal)Eval("Precio"), 2)%></div>
-                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><asp:TextBox runat="server" AutoPostBack="true" type="number" ID="miTextBox" Text='<%#Eval("Cantidad")%>' CssClass="form-control" style="width: 80px;" OnTextChanged="miTextBox_TextChanged"/></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><asp:TextBox runat="server" AutoPostBack="true" min="1" max="30" type="number" ID="miTextBox" Text='<%#Eval("Cantidad")%>' CssClass="form-control" style="width: 80px;" OnTextChanged="miTextBox_TextChanged"/></div>
                         <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%#(int)Eval("Cantidad") * Math.Round((decimal)Eval("Precio"), 2)%></div>
                         <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">
                             <a href="Compras.aspx?eliminar=<%#Eval("IDArticulo")%>"><img src="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" style="height: 95px" /></a>
