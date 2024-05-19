@@ -5,21 +5,19 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+   
     <style>
-        .tarjeta {
-            width: 100px;
-            height: 400px;
-        }
-
         .card {
             height: 100%;
         }
 
         .card-img-top {
-            height: 80%;
+            width: auto; height: 300px;
             object-fit: contain;
         }
-      
+        .card-body {
+            text-align: center;
+        }
     </style>
 
     <div class="bg-dark text-white p -3 w-100 d-flex justify-content-center align-items-center" style="height: 70px;">
@@ -64,12 +62,12 @@
             </div>
             <br />
 
-            <div class="row row-cols 1 row-cols-md-3 g-4">
+            <div class="row row-cols 1 row-cols-md-3 g-4  ">
                 <% foreach (dominio.Articulo item in misArticulos)
                     {%>
-                <div class="col">
+                <div class="col  ">
                     <div class="card">
-                        <img src="<%= item.Imagenes[0].ImagenUrl%>" style="width: auto; height: 80%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
+                        <img src="<%= item.Imagenes[0].ImagenUrl%>" style="width: auto; height: 300px; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
                         <div class="card-body">
                             <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
                                 lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo);

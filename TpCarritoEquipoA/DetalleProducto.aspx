@@ -4,7 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
-
+   <style>
+        .carousel-control-next,
+        .carousel-control-prev {
+            filter: invert(100%);
+        }
+    </style>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -17,12 +22,12 @@
                                     <%bool esActive = true;
                                     foreach (dominio.Imagen img in artSeleccionado.Imagenes){%>
                                         <div class="carousel-item <%= esActive ? "active" : "" %>">
-                                            <img src="<%= img.ImagenUrl %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                            <img src="<%= img.ImagenUrl %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: 300px; width: 100%; object-fit:contain;">
                                         </div>
                                         <%esActive = false; // setea el esActive a falso despues de la primer iteracion
                                     }%>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
