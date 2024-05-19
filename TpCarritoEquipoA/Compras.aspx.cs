@@ -23,6 +23,12 @@ namespace TpCarritoEquipoA
         {
             miCarrito = (CarritoCompras)Session["compras"];
 
+            if (Request.QueryString["eliminar"] != null)
+            {
+                int id = int.Parse(Request.QueryString["eliminar"]);
+                miCarrito.EliminarProducto(id);
+            }
+
             if (Request.QueryString["id"] != null)
             {
                 bool estaAgregado = false;
@@ -48,10 +54,6 @@ namespace TpCarritoEquipoA
                
                 costoTotal += articulo.Cantidad * articulo.Precio; 
             }
-        }
-
-        protected void btnEliminarProducto_Click(object sender, ImageClickEventArgs e)
-        {
         }
     }
 }
