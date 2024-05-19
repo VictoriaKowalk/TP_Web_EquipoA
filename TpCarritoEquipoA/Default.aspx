@@ -52,7 +52,7 @@
             <br />
 
             <div class="row row-cols 1 row-cols-md-3 g-4">
-                <% foreach (dominio.Articulo item in (List<dominio.Articulo>)Session["articulos"])
+                <% foreach (dominio.Articulo item in misArticulos)
                     {%>
                 <div class="col">
                     <div class="card">

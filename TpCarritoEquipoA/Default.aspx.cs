@@ -31,6 +31,9 @@ namespace TpCarritoEquipoA
 
                 ddlCriterio.Items.Insert(0, new ListItem(string.Empty, string.Empty));
                 ddlCriterio.SelectedIndex = 0;
+            } else
+            {
+                misArticulos = (List<Articulo>)Session["articulos"];
             }
         }
 

@@ -18,37 +18,31 @@
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">CANTIDAD</div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">TOTAL</div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">ELIMINAR</div>
-
             </div>
-
-            <% miCarrito = (TpCarritoEquipoA.CarritoCompras)Session["compras"];
-                int cantProductos = miCarrito.ObtenerProductos().Count();
-                foreach (dominio.Articulo articulo in miCarrito.ObtenerProductos())
-                {%>
-            <div class="row align-items-center" style="font-weight: bold;">
-                <% 
+             <%
+            foreach (dominio.Articulo articulo in miCarrito.ObtenerProductos()){%>
+                <div class="row align-items-center" style="font-weight: bold;"><% 
                     string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
                     string urlImagen = defaultUrl; // Establecer URL predeterminada
-                    if (articulo.Imagenes.Count() > 0) // Verificar si hay imágenes
-                    {
+                    if (articulo.Imagenes.Count() > 0){
                         urlImagen = articulo.Imagenes[0].ImagenUrl; // Asignar la primera imagen
                     }%>
-                <div class="col border" style="height: 100px;">
-                    <img src="<%= urlImagen %>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+                    <div class="col border" style="height: 100px;">
+                        <img src="<%= urlImagen %>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+                    </div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Nombre%></div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
+                    <div class="col border d-flex justify-content-center align-items-center">
+                        <asp:ImageButton ID="btnEliminarProducto" runat="server" Height="99px" ImageUrl="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" CssClass="btn btn-link text-dark" OnClick="btnEliminarProducto_Click"/>
+                    </div>
                 </div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Nombre%></div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
-                <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
-                <div class="col border d-flex justify-content-center align-items-center">
-                    <asp:ImageButton ID="btnEliminarProducto" runat="server" Height="99px" ImageUrl="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" CssClass="btn btn-link text-dark" OnClick="btnEliminarProducto_Click"/>
-                </div>
-            </div>
-            <%}%>
+          <%}%>
         </div>
-    
-    <br />
+
+        <br />
 
         <div class="col text-end">
             <asp:Label ID="Costo_Total" runat="server" CssClass="form-label" Font-Bold="true" Font-Size="Large">Costo Total: ARS <%=Math.Round(costoTotal , 2) %> </asp:Label>
@@ -59,7 +53,9 @@
                 <a href="#" class="btn btn-primary float-end">Comprar</a>
             </div>
         </div>
+
         <br />
+        
         <div class="row">
             <div class="col">
                 <a href="Default.aspx" class="btn btn-primary float-end">Seguir comprando</a>
