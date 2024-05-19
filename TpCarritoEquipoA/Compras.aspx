@@ -19,28 +19,30 @@
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">TOTAL</div>
                 <div class="col border d-flex justify-content-center align-items-center" style="height: 50px;">ELIMINAR</div>
             </div>
-             <%
-            foreach (dominio.Articulo articulo in miCarrito.ObtenerProductos()){%>
-                <div class="row align-items-center" style="font-weight: bold;">
-                    <div class="col border" style="height: 100px;">
-                        <img src="<%= articulo.Imagenes[0].ImagenUrl%>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'"/>
+
+            <asp:Repeater ID="miRepetidor" runat="server">
+                <ItemTemplate>
+                    <div class="row align-items-center" style="font-weight: bold;">
+                        <div class="col border" style="height: 100px;">
+                            <img src="<%#Eval("Imagenes[0].ImagenUrl")%>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%#Eval("Nombre")%>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'"/>
+                        </div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%#Eval("Nombre")%></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%#Eval("Codigo")%></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%# Math.Round((decimal)Eval("Precio"), 2)%></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><asp:TextBox runat="server" AutoPostBack="true" type="number" ID="miTextBox" Text='<%#Eval("Cantidad")%>' CssClass="form-control" style="width: 80px;" OnTextChanged="miTextBox_TextChanged"/></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%#(int)Eval("Cantidad") * Math.Round((decimal)Eval("Precio"), 2)%></div>
+                        <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">
+                            <a href="Compras.aspx?eliminar=<%#Eval("IDArticulo")%>"><img src="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" style="height: 95px" /></a>
+                        </div>
                     </div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Nombre%></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=articulo.Cantidad * Math.Round(articulo.Precio, 2) %></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">
-                        <a href="Compras.aspx?eliminar=<%=articulo.IDArticulo%>"><img src="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" style="height: 95px" /></a>
-                    </div>
-                </div>
-          <%}%>
+                </ItemTemplate>
+            </asp:Repeater>
         </div>
 
         <br />
 
         <div class="col text-end">
-            <asp:Label ID="Costo_Total" runat="server" CssClass="form-label" Font-Bold="true" Font-Size="Large">Costo Total: ARS <%=Math.Round(costoTotal , 2) %> </asp:Label>
+            <asp:Label ID="Costo_Total" runat="server" CssClass="form-label" Font-Bold="true" Font-Size="Large">Costo Total: ARS <%=costoTotal%> </asp:Label>
         </div>
 
         <div class="row mt-2">

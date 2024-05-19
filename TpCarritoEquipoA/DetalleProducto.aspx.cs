@@ -53,8 +53,9 @@ namespace TpCarritoEquipoA
         {
             string id = Request.QueryString["id"];
             string cant = ddlCantidad.SelectedValue;
+            Session.Add("cantidad", cant);
 
-            Response.Redirect($"compras.aspx?id={id}&cant={cant}");
+            Response.Redirect($"compras.aspx?id={id}");
         }
 
     }

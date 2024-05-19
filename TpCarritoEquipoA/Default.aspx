@@ -67,7 +67,7 @@
                     {%>
                 <div class="col  ">
                     <div class="card">
-                        <img src="<%= item.Imagenes[0].ImagenUrl%>" style="width: auto; height: 300px; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
+                        <img src="<%= item.Imagenes[0].ImagenUrl%>" style="width: auto; height: 400px; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
                         <div class="card-body">
                             <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
                                 lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo);

@@ -23,36 +23,74 @@ namespace TpCarritoEquipoA
         {
             miCarrito = (CarritoCompras)Session["compras"];
 
-            if (Request.QueryString["eliminar"] != null)
+            if (!IsPostBack)
             {
-                int id = int.Parse(Request.QueryString["eliminar"]);
-                miCarrito.EliminarProducto(id);
-            }
-
-            if (Request.QueryString["id"] != null)
-            {
-                bool estaAgregado = false;
-                int id = int.Parse(Request.QueryString["id"]);
-                int cant = int.Parse(Request.QueryString["cant"]);
-                artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
-                artAgregado.Cantidad = cant;
-                foreach(Articulo articulo in miCarrito.ObtenerProductos())
+                if (Request.QueryString["eliminar"] != null)
                 {
-                    if (articulo.IDArticulo == artAgregado.IDArticulo){
-                        articulo.Cantidad += artAgregado.Cantidad;
+                    int id = int.Parse(Request.QueryString["eliminar"]);
+                    miCarrito.EliminarProducto(id);
+                }
+                if (Request.QueryString["id"] != null)
+                {
+                    bool estaAgregado = false;
+                    int id = int.Parse(Request.QueryString["id"]);
+                    int cant = int.Parse((string)Session["cantidad"]);
+
+                    artAgregado = ((List<Articulo>)Session["articulos"]).Find(x => x.IDArticulo == id);
+                    artAgregado.Cantidad = cant;
+                    foreach (Articulo articulo in miCarrito.ObtenerProductos())
+                    {
+                        if (articulo.IDArticulo == artAgregado.IDArticulo)
+                        {
+                            articulo.Cantidad += artAgregado.Cantidad;
+                            estaAgregado = true;
+                        }
+                    }
+                    if (!estaAgregado)
+                    {
+                        miCarrito.AgregarProducto(artAgregado);
                         estaAgregado = true;
                     }
+                    // El DataSource se hace después de que se agregan artículos al carrito
+                    // sino queda desfasado
+
                 }
-                if (!estaAgregado)
+                miRepetidor.DataSource = miCarrito.ObtenerProductos();
+                miRepetidor.DataBind();
+            }
+
+            // El error es que cuando clickeamos desde el Default, aparece vacío porque no hay una fuente para el repetidor
+
+            foreach (Articulo articulo in miCarrito.ObtenerProductos())
+            {
+                costoTotal += articulo.Cantidad * Math.Round(articulo.Precio, 2);
+            }
+        }
+
+        protected void miTextBox_TextChanged(object sender, EventArgs e)
+        {
+            int longitud = miCarrito.ObtenerProductos().Count();
+            for (int i=0; i < longitud; i++)
+            {
+                RepeaterItem item = miRepetidor.Items[i];
+                TextBox txtBox = (TextBox)item.FindControl("miTextBox");
+                if(int.Parse(txtBox.Text) < 1)
                 {
-                    miCarrito.AgregarProducto(artAgregado);
-                    estaAgregado = true;
+                    txtBox.Text = "1";
+                    return;
+                } else
+                {
+                    miCarrito.ObtenerProductos()[i].Cantidad = int.Parse(txtBox.Text);
                 }
             }
-            foreach(Articulo articulo in miCarrito.ObtenerProductos())
+
+            Session["compras"] = miCarrito;
+            miRepetidor.DataSource = miCarrito.ObtenerProductos();
+            miRepetidor.DataBind();
+            costoTotal = 0;
+            foreach (Articulo articulo in miCarrito.ObtenerProductos())
             {
-               
-                costoTotal += articulo.Cantidad * articulo.Precio; 
+                costoTotal += articulo.Cantidad * Math.Round(articulo.Precio, 2);
             }
         }
     }
