@@ -54,6 +54,15 @@ namespace negocio
                         miArticulo.Imagenes.Add(miImagen);
                     }
                 }
+                if (miArticulo.Imagenes.Count() == 0)
+                {
+                    Imagen miImagen = new Imagen
+                    {
+                        IDArticulo = miArticulo.IDArticulo,
+                        ImagenUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"
+                    };
+                    miArticulo.Imagenes.Add(miImagen);
+                }
             }
         }
     }

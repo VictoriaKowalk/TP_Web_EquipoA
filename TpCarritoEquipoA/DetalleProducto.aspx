@@ -15,25 +15,14 @@
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <%// Si no tiene imágenes, asignamos una por defecto para mostrar
-                                      if (artSeleccionado.Imagenes.Count == 0){
-                                            string urlImagen = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png"; %>
-                                            <div class="carousel-item active">                             
-                                                <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
-                                            </div><%
-                                      } else { 
-                                            
-                                            bool esActive = true;
-                                            foreach (dominio.Imagen img in artSeleccionado.Imagenes){
-                                                urlImagen = img.ImagenUrl;
-                                            %>
-                                                <div class="carousel-item <%= esActive ? "active" : "" %>">
-                                                    <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
-                                                </div>
-                                            <%
-                                                esActive = false; // setea el esActive a falso despues de la primer iteracion
-                                            }
-                                            %>
-                                    <%  }%>
+                                    bool esActive = true;
+                                    foreach (dominio.Imagen img in artSeleccionado.Imagenes){
+                                        urlImagen = img.ImagenUrl;%>
+                                        <div class="carousel-item <%= esActive ? "active" : "" %>">
+                                            <img src="<%= urlImagen %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: auto; width: 100%;">
+                                        </div><%
+                                        esActive = false; // setea el esActive a falso despues de la primer iteracion
+                                    }%>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

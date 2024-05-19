@@ -80,13 +80,7 @@
                     {%>
                 <div class="col">
                     <div class="card">
-                        <% 
-                            string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                            if (item.Imagenes.Count() > 0) // Verifica si hay imágenes
-                            {
-                                urlImagen = item.Imagenes[0].ImagenUrl;  //Asigna la primera imagen
-                            }%>
-                        <img src="<%= urlImagen %>" style="width: auto; height: 80%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+                        <img src="<%= item.Imagenes[0].ImagenUrl%>" style="width: auto; height: 80%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= item.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
                         <div class="card-body">
                             <%lblNombre.Text = string.Format("<h1>{0}</h1>", item.Nombre);
                                 lblCodigo.Text = string.Format("<h5>{0}</h5>", item.Codigo);

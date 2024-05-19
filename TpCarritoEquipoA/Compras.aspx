@@ -34,7 +34,7 @@
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Precio, 2)%></div>
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Cantidad%></div>
-                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=Math.Round(articulo.Cantidad * articulo.Precio, 2) %></div>
+                    <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">ARS <%=articulo.Cantidad * Math.Round(articulo.Precio, 2) %></div>
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;">
                         <a href="Compras.aspx?eliminar=<%=articulo.IDArticulo%>"><img src="https://i.pinimg.com/564x/1d/ea/b0/1deab0333e2eb27bae39398af6699ed4.jpg" style="height: 95px" /></a>
                     </div>
