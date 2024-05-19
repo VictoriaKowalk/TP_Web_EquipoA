@@ -246,3 +246,7 @@ C:\TP4 Prog III posta\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.dll
 C:\TP4 Prog III posta\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.dll
 C:\TP4 Prog III posta\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.pdb
 C:\TP4 Prog III posta\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.pdb
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.dll
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.dll
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\TpCarritoEquipoA\bin\dominio.pdb
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\TpCarritoEquipoA\bin\negocio.pdb

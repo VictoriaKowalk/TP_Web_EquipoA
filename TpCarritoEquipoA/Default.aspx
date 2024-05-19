@@ -19,33 +19,49 @@
             height: 80%;
             object-fit: contain;
         }
+      
     </style>
 
     <div class="bg-dark text-white p -3 w-100 d-flex justify-content-center align-items-center" style="height: 70px;">
         <div class="d-flex align-items-center">
-            <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" Style="margin-right: 20px;" />
+            <asp:Label ID="lblFiltrarPor" runat="server" Text="Filtrar por:" Style="margin-right: 10px;" />
             <div class="ddlf" style="width: 160px; height: 20px; margin-right: 20px;">
                 <asp:DropDownList ID="ddlFiltrarPor" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlFiltrarPor_SelectedIndexChanged" CssClass="form-select" Style="margin-right: 40px;">
                 </asp:DropDownList>
             </div>
-            <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" Style="margin-right: 20px; margin-left: 30px" />
+            <asp:Label ID="lblCriterio" runat="server" Text="Criterio:" Style="margin-right: 10px; margin-left: 30px" />
             <div class="ddlf" style="width: 160px; height: 20px">
                 <asp:DropDownList ID="ddlCriterio" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCriterio_SelectedIndexChanged" CssClass="form-select">
                 </asp:DropDownList>
             </div>
-            <div class="ddlf" style="width: 160px; height: 20px">
+            <div class="ddlf" style=" width: 160px; height: 20px">
                 <asp:Button ID="btnAplicarFiltro" runat="server" Text="Aplicar filtro" CssClass="btn btn-primary" OnClick="btnAplicarFiltro_Click" Style="margin-left: 75px;" />
             </div>
-            <div class="ddlf" style="width: 160px; height: 20px">
-                <asp:Button ID="btnLimpiarFiltro" runat="server" Text="Limpiar filtros" CssClass="btn btn-primary" OnClick="btnLimpiarFiltro_Click" Style="margin-left: 75px;" />
+
+            <div class="ddlf" style="margin-left: 40px; width: 50px; height: 10px;">
+                <asp:LinkButton ID="btnLimpiarFiltro" runat="server" OnClick="btnLimpiarFiltro_Click">
+                    <i class="fa-solid fa-filter-circle-xmark fa-lg icon" style="color: #ffffff;"></i>
+                </asp:LinkButton>
             </div>
+
+
+
             <%--  --%>
-            <div class="input-group" style="margin-left: 80px">
+            <div class="d-flex align-items-center ml-auto" style="width: 250px;  margin-left: 400px;">
+        <div class="input-group" style="width: 100%;">
+            <asp:TextBox ID="tbxBuscar" CssClass="form-control input-group-lg" runat="server" />
+            <div class="input-group-append">
+                <asp:Button Text="Buscar" ID="Button1" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
+            </div>
+        </div>
+    </div>
+           <%--  <div class="input-group" style="margin-left: 150px; width: 160px; height: 20px;">
                 <div class="form-outline">
                     <asp:TextBox ID="tbxBuscar" CssClass="form-control input-group-lg" runat="server" />
+
+                    <asp:Button Text="Buscar" ID="btnBuscar" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
                 </div>
-                <asp:Button Text="Buscar" ID="btnBuscar" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
-            </div>
+            </div>--%>
             <%--  --%>
         </div>
     </div>

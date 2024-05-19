@@ -10,3 +10,9 @@ C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.cspr
 C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.dll
 C:\Users\Lucas\Desktop\Repo GitHub\TP_Web_EquipoA\dominio\obj\Debug\dominio.pdb
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\bin\Debug\dominio.dll
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\bin\Debug\dominio.pdb
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\obj\Debug\dominio.dll
+C:\Users\kowal\Desktop\Tp_Carrito\TP_Web_EquipoA\dominio\obj\Debug\dominio.pdb
