@@ -21,14 +21,9 @@
             </div>
              <%
             foreach (dominio.Articulo articulo in miCarrito.ObtenerProductos()){%>
-                <div class="row align-items-center" style="font-weight: bold;"><% 
-                    string defaultUrl = "https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png";
-                    string urlImagen = defaultUrl; // Establecer URL predeterminada
-                    if (articulo.Imagenes.Count() > 0){
-                        urlImagen = articulo.Imagenes[0].ImagenUrl; // Asignar la primera imagen
-                    }%>
+                <div class="row align-items-center" style="font-weight: bold;">
                     <div class="col border" style="height: 100px;">
-                        <img src="<%= urlImagen %>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='<%= defaultUrl %>'">
+                        <img src="<%= articulo.Imagenes[0].ImagenUrl%>" style="max-width: 100%; max-height: 100%; object-fit: contain;" class="card-img-top" alt="Imagen del producto <%= articulo.Nombre %>" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'"/>
                     </div>
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Nombre%></div>
                     <div class="col border d-flex justify-content-center align-items-center" style="height: 100px;"><%=articulo.Codigo%></div>

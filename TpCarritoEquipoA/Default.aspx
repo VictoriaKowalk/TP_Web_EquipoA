@@ -44,25 +44,14 @@
                 </asp:LinkButton>
             </div>
 
-
-
-            <%--  --%>
             <div class="d-flex align-items-center ml-auto" style="width: 250px;  margin-left: 400px;">
-        <div class="input-group" style="width: 100%;">
-            <asp:TextBox ID="tbxBuscar" CssClass="form-control input-group-lg" runat="server" />
-            <div class="input-group-append">
-                <asp:Button Text="Buscar" ID="Button1" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
-            </div>
-        </div>
-    </div>
-           <%--  <div class="input-group" style="margin-left: 150px; width: 160px; height: 20px;">
-                <div class="form-outline">
+                <div class="input-group" style="width: 100%;">
                     <asp:TextBox ID="tbxBuscar" CssClass="form-control input-group-lg" runat="server" />
-
-                    <asp:Button Text="Buscar" ID="btnBuscar" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
+                    <div class="input-group-append">
+                        <asp:Button Text="Buscar" ID="Button1" CssClass="btn btn-secondary" OnClick="btnBuscar_Click" runat="server" />
+                    </div>
                 </div>
-            </div>--%>
-            <%--  --%>
+            </div>
         </div>
     </div>
 
