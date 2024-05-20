@@ -22,7 +22,7 @@
                                     <%bool esActive = true;
                                     foreach (dominio.Imagen img in artSeleccionado.Imagenes){%>
                                         <div class="carousel-item <%= esActive ? "active" : "" %>">
-                                            <img src="<%= img.ImagenUrl %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: 300px; width: 100%; object-fit:contain;">
+                                            <img src="<%= img.ImagenUrl %>" class="img-fluid rounded-start" alt="Imagen del producto <%= artSeleccionado.Nombre %>" style="height: 300px; width: 100%; object-fit:contain;" onerror="this.src='https://nayemdevs.com/wp-content/uploads/2020/03/default-product-image.png'">
                                         </div>
                                         <%esActive = false; // setea el esActive a falso despues de la primer iteracion
                                     }%>
